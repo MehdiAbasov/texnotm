@@ -823,6 +823,10 @@ a {
         font-size: 45px;
     }
 
+    .about-us .left-side, .right-side{
+        padding: 20px !important;
+    }
+
     .absolute-img {
         width: 120px !important;
         height: 120px !important;
@@ -847,6 +851,8 @@ a {
     }
 }
 
+
+/* Texno Tədris Mərkəzi */
 /* succes */
 
 .succes-top {
