@@ -827,22 +827,26 @@ a {
     }
 
     .absolute-img{
-        width: 150px !important;
-        height: 150px !important;
+        width: 120px !important;
+        height: 120px !important;
     }
 
     .about-img{
         width: 30px !important;
-        height: 150px !important;
-        margin-top: -150px !important;
+        height: 120px !important;
+        margin-top: -120px !important;
     }
 
     .absolute-img:hover .about-img{
-        width: 150px !important;
+        width: 120px !important;
+    }
+
+    .social-links a{
+        font-size: 18px !important;
     }
 
     .about-img h4{
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 
