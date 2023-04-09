@@ -350,6 +350,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     color: #fff;
+    opacity: .8;
     position: relative;
     transition: 0.5s linear;
     background-color: #3f14dc;
@@ -823,6 +824,25 @@ a {
     }
     .hero .left-side h1 {
         font-size: 50px;
+    }
+
+    .absolute-img{
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .about-img{
+        width: 30px !important;
+        height: 150px !important;
+        margin-top: -150px !important;
+    }
+
+    .absolute-img:hover .about-img{
+        width: 150px !important;
+    }
+
+    .about-img h4{
+        font-size: 18px;
     }
 }
 
