@@ -1,15 +1,3 @@
-const resNavbar = document.getElementById('res-navbar')
-const menuIcon = document.getElementById('menu-icon')
-const xmarkIcon = document.getElementById('xmark-icon')
-
-menuIcon.addEventListener('click', function () {
-    resNavbar.classList.add('transformX')
-})
-
-xmarkIcon.addEventListener('click', function () {
-    resNavbar.classList.remove('transformX')
-});
-
 const navbar = `
 
 <div class="container navbar-container">

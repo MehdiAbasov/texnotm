@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./owl/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./owl/assets/owl.theme.default.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
     <link rel="shortcut icon" href="./texnoLogo.png" type="image/x-icon">
     <title>Texno Tədris Mərkəzi</title>
 </head>
@@ -20,7 +21,7 @@
 <body>
 
     <!-- Navbar start -->
-    <div class="my-navbar" id="nav">
+    <nav class="my-navbar" id="nav">
         <div class="container navbar-container">
             <div class="responsive-navbar" id="res-navbar">
                 <div class="res-container">
@@ -35,7 +36,7 @@
                     <div class="navbar-bottom">
                         <div class="res-nav-links">
                             <a href="#">Ana Səhifə</a>
-                            <a href="#">Haqqımızda</a>
+                            <a href="./about-us.html">Haqqımızda</a>
                             <a href="#">fəaliyyətlər</a>
                             <a href="#">Uğurlarımız</a>
                             <a href="#">Nəticələr</a>
@@ -53,7 +54,7 @@
             </div>
             <div class="nav-links">
                 <a href="#">Ana Səhifə</a>
-                <a href="#">Haqqımızda</a>
+                <a href="about-us.html">Haqqımızda</a>
                 <a href="#">Əlaqə</a>
                 <div class="dropdown">
                     <div class="drop-btn">
@@ -85,7 +86,7 @@
                 <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
         </div>
-    </div>
+    </nav>
     <!-- end Navbar -->
 
     <!-- hero section -->
@@ -183,7 +184,7 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="services-item">
                             <div class="service-icon">
-                                <i class="fa-sharp fa-solid fa-envelope-open-text"></i>
+                                <i class="fa-solid fa-people-group"></i>
                             </div>
                             <h3>Peşəkar heyət</h3>
                             <p>Övladlarınızın peşəkar müəllimlərdən dərs almağını istəyirsinizsə ozaman doğru yerdəsiniz
@@ -270,74 +271,54 @@
     </div>
     <!-- courser -->
 
-    <!-- comments -->
-    <div class="comments">
+    <!-- people -->
+    <div class="people">
         <div class="container">
-            <div class="comments-top">
-                <span>Rəylər</span>
-                <h3>Tələbələrimizin nə deyir</h3>
-            </div>
-            <div class="comments-bottom">
-                <div class="owl-carousel">
-                    <div class="owl-carousel-item">
-                        <div class="owl-top">
-                            <div class="user-img">
-                                <i class="fa-solid fa-user"></i>
-                            </div>
-                            <div class="user-info">
-                                <h3>Mehdi Abasov</h3>
-                                <span>Məzun</span>
-                            </div>
-                        </div>
-                        <div class="comment-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quo pariatur eos ad quod
-                                animi
-                                quidem, neque consectetur, illum atque placeat reprehenderit dolorem nihil inventore!
-                                Nesciunt
-                                perspiciatis nam fugit tenetur?</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="counter-up">
+                        <h2><span class="counter">5000+</span></h2>
+                        <span class="counter-divider"></span>
+                        <h3>Tələbə</h3>
+                        <div class="counter-icon">
+                            <i class="fa-solid fa-people-group"></i>
                         </div>
                     </div>
-                    <div class="owl-carousel-item">
-                        <div class="owl-top">
-                            <div class="user-img">
-                                <i class="fa-solid fa-user"></i>
-                            </div>
-                            <div class="user-info">
-                                <h3>Mehdi Abasov</h3>
-                                <span>Məzun</span>
-                            </div>
-                        </div>
-                        <div class="comment-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quo pariatur eos ad quod
-                                animi
-                                quidem, neque consectetur, illum atque placeat reprehenderit dolorem nihil inventore!
-                                Nesciunt
-                                perspiciatis nam fugit tenetur?</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="counter-up">
+                        <h2><span class="counter">40</span></h2>
+                        <span class="counter-divider"></span>
+                        <h3>Müəllim</h3>
+                        <div class="counter-icon">
+                            <i class="fa-solid fa-chalkboard-user"></i>
                         </div>
                     </div>
-                    <div class="owl-carousel-item">
-                        <div class="owl-top">
-                            <div class="user-img">
-                                <i class="fa-solid fa-user"></i>
-                            </div>
-                            <div class="user-info">
-                                <h3>Mehdi Abasov</h3>
-                                <span>Məzun</span>
-                            </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="counter-up">
+                        <h2><span class="counter">99%</span></h2>
+                        <span class="counter-divider"></span>
+                        <h3>Məmnuniyyət</h3>
+                        <div class="counter-icon">
+                            <i class="fa-solid fa-check"></i>
                         </div>
-                        <div class="comment-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quo pariatur eos ad quod
-                                animi
-                                quidem, neque consectetur, illum atque placeat reprehenderit dolorem nihil inventore!
-                                Nesciunt
-                                perspiciatis nam fugit tenetur?</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="counter-up">
+                        <h2><span class="counter">2</span></h2>
+                        <span class="counter-divider"></span>
+                        <h3>Filial</h3>
+                        <div class="counter-icon">
+                            <i class="fa-solid fa-school"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- comments -->
+    <!-- people -->
 
     <!-- succes -->
     <div class="succes">
@@ -345,61 +326,53 @@
             <div class="succes-top">
                 <span>Uğurlarımız</span>
             </div>
-            <div class="row">
-                <div class="col-xl-3 col-md-6">
-                    <div class="succes-item">
-                        <div class="succes-img">
-                            <img src="./images/succesImg/succesimg1.jpg" alt="">
+            <div class="owl-carousel">
+                <div class="succes-item">
+                    <div class="succes-img">
+                        <img src="./images/succesImg/succesimg1.jpg" alt="">
+                    </div>
+                    <div class="succes-info">
+                        <h1>Ismayl Memmedzade</h1>
+                        <div class="cost">
+                            <span>632 Bal</span>
                         </div>
-                        <div class="succes-info">
-                            <h1>Ismayl Memmedzade</h1>
-                            <div class="cost">
-                                <span>632 Bal</span>
-                            </div>
-                            <p>Bakı Dövlət universiteti - Hüquqşunaslıq</p>
-                        </div>
+                        <p>Bakı Dövlət universiteti - Hüquqşunaslıq</p>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="succes-item">
-                        <div class="succes-img">
-                            <img src="./images/succesImg/succesimg1.jpg" alt="">
+                <div class="succes-item">
+                    <div class="succes-img">
+                        <img src="./images/succesImg/succesimg1.jpg" alt="">
+                    </div>
+                    <div class="succes-info">
+                        <h1>Ismayl Memmedzade</h1>
+                        <div class="cost">
+                            <span>632 Bal</span>
                         </div>
-                        <div class="succes-info">
-                            <h1>Ismayl Memmedzade</h1>
-                            <div class="cost">
-                                <span>632 Bal</span>
-                            </div>
-                            <p>Bakı Dövlət universiteti - Hüquqşunaslıq</p>
-                        </div>
+                        <p>Bakı Dövlət universiteti - Hüquqşunaslıq</p>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="succes-item">
-                        <div class="succes-img">
-                            <img src="./images/succesImg/succesimg1.jpg" alt="">
+                <div class="succes-item">
+                    <div class="succes-img">
+                        <img src="./images/succesImg/succesimg1.jpg" alt="">
+                    </div>
+                    <div class="succes-info">
+                        <h1>Ismayl Memmedzade</h1>
+                        <div class="cost">
+                            <span>632 Bal</span>
                         </div>
-                        <div class="succes-info">
-                            <h1>Ismayl Memmedzade</h1>
-                            <div class="cost">
-                                <span>632 Bal</span>
-                            </div>
-                            <p>Bakı Dövlət universiteti - Hüquqşunaslıq</p>
-                        </div>
+                        <p>Bakı Dövlət universiteti - Hüquqşunaslıq</p>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="succes-item">
-                        <div class="succes-img">
-                            <img src="./images/succesImg/succesimg1.jpg" alt="">
+                <div class="succes-item">
+                    <div class="succes-img">
+                        <img src="./images/succesImg/succesimg1.jpg" alt="">
+                    </div>
+                    <div class="succes-info">
+                        <h1>Ismayl Memmedzade</h1>
+                        <div class="cost">
+                            <span>632 Bal</span>
                         </div>
-                        <div class="succes-info">
-                            <h1>Ismayl Memmedzade</h1>
-                            <div class="cost">
-                                <span>632 Bal</span>
-                            </div>
-                            <p>Bakı Dövlət universiteti - Hüquqşunaslıq</p>
-                        </div>
+                        <p>Bakı Dövlət universiteti - Hüquqşunaslıq</p>
                     </div>
                 </div>
             </div>
@@ -408,7 +381,6 @@
             </div>
         </div>
     </div>
-
     <!-- succes -->
 
     <!-- register -->
@@ -496,23 +468,32 @@
             </div>
         </div>
     </div>
-    <!-- footer -->
-
-    <!-- script fyles -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="./owl/owl.carousel.min.js"></script>
     <script>
-        window.addEventListener('scroll', function () {
-            const nav = document.getElementById('nav')
-            if (window.scrollY > 150) {
-                nav.classList.add('my-scroll')
-            }
-            else if (window.scrollY < 60) {
-                nav.classList.remove('my-scroll')
-            }
-        })
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                items: 4,
+                autoplay: true,
+                dots: true,
+                autoplayTimeout: 2000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+
+                    768: {
+                        items: 3
+                    }
+                    , 991: {
+                        items: 4
+                    }
+                }
+            });
+        });
+
     </script>
-    <script src="./index.js"></script>
+    <script src="index.js"></script>
+    <script src="./owl/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
