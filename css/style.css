@@ -808,6 +808,9 @@ a {
 }
 
 @media (max-width: 768px) {
+    .footer{
+        padding: 30px 0;
+    }
     .about_us-video-section .container {
         padding: 10px !important;
     }
