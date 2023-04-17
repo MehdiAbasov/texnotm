@@ -867,6 +867,12 @@ a {
     }
 }
 
+@media (max-width:500px){
+    .hero .left-side h1{
+        font-size: 45px !important;
+    }
+}
+
 /* Texno Tədris Mərkəzi */
 /* succes */
 .succes {
