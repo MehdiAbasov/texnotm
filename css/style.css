@@ -867,12 +867,12 @@ a {
     }
 }
 
-@media (max-width:500px){
+@media (max-width:450px){
     .hero .left-side h1{
         font-size: 45px !important;
     }
     .about-us .right-side h3{
-        font-size: 33px;
+        font-size: 30px;
     }
 }
 
