@@ -201,9 +201,9 @@ function getPageTitle(fileName) {
 var fileName = window.location.pathname.split('/').pop();
 fileName = fileName.replace(/\.[^/.]+$/, "");
 
-if (fileName.toLowerCase() === 'index' && location.pathname === '/') {
-    fileName = 'Ana Sayfa';
-  }
+if (fileName === "index") {
+    fileName = "Ana Sayfa";
+}
 
 fileName = fileName.split(/\s+/).map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
