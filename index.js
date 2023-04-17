@@ -202,7 +202,9 @@ var fileName = window.location.pathname.split('/').pop();
 fileName = fileName.replace(/\.[^/.]+$/, "");
 
 if (fileName === "index") {
-    fileName = "Ana Sayfa";
+    fileName = "Ana Sehife";
+} else if(fileName === ''){
+    fileName = "Ana Sehife"
 }
 
 fileName = fileName.split(/\s+/).map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
