@@ -15,79 +15,16 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link rel="shortcut icon" href="./texnoLogo.png" type="image/x-icon">
-    <title>Texno Tədris Mərkəzi</title>
+    <title>Texno Tədris Mərkəzi | About</title>
 </head>
 
 <body>
     <!-- navbar -->
-    <nav class="my-navbar" id="myNavbar">
-        <div class="navbar-container container" id="nav-container">
-            <div class="responsive-navbar" id="res-navbar">
-                <div class="res-container">
-                    <div class="navbar-top">
-                        <div class="res-logo">
-                            <img src="./texnoLogo.png" alt="">
-                        </div>
-                        <div class="xmark-icon" id="xmark-icon">
-                            <i class="fa-solid fa-xmark"></i>
-                        </div>
-                    </div>
-                    <div class="navbar-bottom">
-                        <div class="res-nav-links">
-                            <a href="./index.html">Ana Səhifə</a>
-                            <a href="./about-us.html">Haqqımızda</a>
-                            <a href="#">fəaliyyətlər</a>
-                            <a href="#">Uğurlarımız</a>
-                            <a href="#">Nəticələr</a>
-                            <a href="#">Sınaqlar</a>
-                            <a href="#">Biletlər</a>
-                            <a href="№">Kurslar</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="logo">
-                <a href="#">
-                    <img src="./texnoLogo.png" alt="logo">
-                </a>
-            </div>
-            <div class="nav-links">
-                <a href="./index.html">Ana Səhifə</a>
-                <a href="about-us.html">Haqqımızda</a>
-                <a href="#">Əlaqə</a>
-                <div class="dropdown">
-                    <div class="drop-btn">
-                        <a href="#">Kursumuz <i class="fa-solid fa-angle-down"></i></a>
-                    </div>
-                    <div class="drop-elements">
-                        <a href="#">kurslar</a>
-                        <a href="#">Uğurlarımız</a>
-                        <a href="#">fəaliyyətlər</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <div class="drop-btn">
-                        <a href="#">İmtahanlar <i class="fa-solid fa-angle-down"></i></a>
-                    </div>
-                    <div class="drop-elements">
-                        <a href="#">Sınaqlar</a>
-                        <a href="#">Biletlər</a>
-                        <a href="#">Nəticələr</a>
-                    </div>
-                </div>
-            </div>
-            <div class="menu-icon" id="menu-icon">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="social-media-icons">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-            </div>
-        </div>
-    </nav>
+    <div id="my-navbar-container"></div>
     <!-- navbar -->
-    <div class="about_us-header">
+
+    <!-- about-us _header -->
+    <div class="about_us-header _header">
         <div class="container">
             <h2>Haqqımızda</h2>
             <div class="page_links">
@@ -96,6 +33,8 @@
             </div>
         </div>
     </div>
+    <!-- about-us _header -->
+
     <!-- about-us -->
     <div class="about-us">
         <div class="container">
@@ -103,7 +42,7 @@
                 <div class="col-xl-6 col-md-12 left-side">
                     <img src="images/müəllim-heyəti.jpg" alt="">
                     <div class="absolute-img">
-                        <img src="./images/ramil-emenov.png" alt="ramil-emenov">
+                        <img src="./images/mahirM.jpg" alt="mahirM">
                         <div class="about-img">
                             <h4>Texno Tədris Mərkəzinin Rəhbəri</h4>
                             <div class="social-links">
@@ -129,6 +68,7 @@
         </div>
     </div>
     <!-- about-us -->
+
     <!-- services -->
     <div class="about_us-services services">
         <div class="container">
@@ -181,6 +121,7 @@
         </div>
     </div>
     <!-- services -->
+
     <!-- video-section -->
     <div class="about_us-video-section">
         <div class="container">
@@ -190,6 +131,7 @@
         </div>
     </div>
     <!-- video-section -->
+
     <!-- teachers -->
     <div class="about_us-teachers">
         <div class="container">
@@ -197,7 +139,7 @@
                 <div class="col-xl-3 col-md-6">
                     <div class="teacher">
                         <div class="teacher-img">
-                            <img src="./images/ramil-emenov.png" alt="">
+                            <img src="./images/mahirM.jpg" alt="">
                             <div class="teacher-media-links">
                                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
                                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -205,7 +147,7 @@
                             </div>
                         </div>
                         <div class="teacher-info">
-                            <h3>Ə. Ramil</h3>
+                            <h3>Mahir H.</h3>
                             <span>Texno Tədris Mərkəzi Rəhbəri</span>
                         </div>
                     </div>
@@ -214,118 +156,68 @@
         </div>
     </div>
     <!-- teachers -->
+
     <!-- testimonials -->
     <div class="testimonials">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-6 comment-side">
-                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="5000">
-                                <div class="comment">
-                                    <div class="comment-text">
-                                        <img src="images/starimg.jpg" alt="">
-                                        <q>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eaque beatae
-                                            vitae eius consectetur deleniti. Voluptatum temporibus blanditiis ratione
-                                            voluptatibus architecto atque et repellendus eius, maiores, eveniet
-                                            obcaecati
-                                            laudantium sed!
-                                        </q>
-                                    </div>
-                                    <div class="comment-info">
-                                        <img src="./images/ramil-emenov.png" alt="">
-                                        <div class="comment-writer">
-                                            <h4>Ramil E.</h4>
-                                            <p>Tələbə</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="5000">
-                                <div class="comment">
-                                    <div class="comment-text">
-                                        <img src="images/starimg.jpg" alt="">
-                                        <q>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eaque beatae
-                                            vitae eius consectetur deleniti. Voluptatum temporibus blanditiis ratione
-                                            voluptatibus architecto atque et repellendus eius, maiores, eveniet
-                                            obcaecati
-                                            laudantium sed!
-                                        </q>
-                                    </div>
-                                    <div class="comment-info">
-                                        <img src="./images/ramil-emenov.png" alt="">
-                                        <div class="comment-writer">
-                                            <h4>Ramil E.</h4>
-                                            <p>Tələbə</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="5000">
-                                <div class="comment">
-                                    <div class="comment-text">
-                                        <img src="images/starimg.jpg" alt="">
-                                        <q>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eaque beatae
-                                            vitae eius consectetur deleniti. Voluptatum temporibus blanditiis ratione
-                                            voluptatibus architecto atque et repellendus eius, maiores, eveniet
-                                            obcaecati
-                                            laudantium sed!
-                                        </q>
-                                    </div>
-                                    <div class="comment-info">
-                                        <img src="./images/ramil-emenov.png" alt="">
-                                        <div class="comment-writer">
-                                            <h4>Ramil E.</h4>
-                                            <p>Tələbə</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="comments-btns">
-                            <button class="carousel-control-prev my-prev-button" type="button"
-                                data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
+            <div class="testimonials-head">
+                <span>Testimonials</span>
+                <h2>Tələbələrimizin rəyləri</h2>
+            </div>
+            <div class="owl-carousel">
+                <div class="comment">
+                    <div class="comment-text">
+                        <img src="images/starimg.jpg" alt="">
+                        <q>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eaque beatae
+                            vitae eius consectetur deleniti. Voluptatum temporibus blanditiis ratione
+                            voluptatibus architecto atque et repellendus eius, maiores, eveniet
+                            obcaecati
+                            laudantium sed!
+                        </q>
+                    </div>
+                    <div class="comment-info">
+                        <img src="./images/mahirM.jpg" alt="">
+                        <div class="comment-writer">
+                            <h4>Ramil E.</h4>
+                            <p>Tələbə</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 news-side">
-                    <a href="https://youtu.be/F3I-VXOTVvI" target="_blank">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <img src="./images/news.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <h3>Məktəb ulduzları layihəsi</h3>
-                                <p>Texno tedris merkezinin heyata keçirdiyi məktəb ulduzları layihəsi </p>
-                            </div>
+                <div class="comment">
+                    <div class="comment-text">
+                        <img src="images/starimg.jpg" alt="">
+                        <q>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eaque beatae
+                            vitae eius consectetur deleniti. Voluptatum temporibus blanditiis ratione
+                            voluptatibus architecto atque et repellendus eius, maiores, eveniet
+                            obcaecati
+                            laudantium sed!
+                        </q>
+                    </div>
+                    <div class="comment-info">
+                        <img src="./images/mahirM.jpg" alt="">
+                        <div class="comment-writer">
+                            <h4>Ramil E.</h4>
+                            <p>Tələbə</p>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- testimonials -->
 
-
+    <!-- footer -->
+    <div id="footer_container"></div>
+    <!-- footer -->
+    
     <!-- js files -->
     <script>
         $(document).ready(function () {
             $(".owl-carousel").owlCarousel({
                 loop: true,
-                items: 4,
+                items: 3,
                 autoplay: true,
                 dots: true,
                 autoplayTimeout: 2000,
@@ -335,10 +227,12 @@
                     },
 
                     768: {
-                        items: 3
+                        items: 2
                     }
-                    , 991: {
-                        items: 4
+
+                    ,
+                    1200: {
+                        items: 3
                     }
                 }
             });
