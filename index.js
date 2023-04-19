@@ -9,7 +9,7 @@ function addNavbarToPage() {
             <div class="res-container">
                 <div class="navbar-top">
                     <div class="res-logo">
-                        <img src="./texnoLogo.png" alt="logo">
+                        <img src="../texnoLogo.png" alt="logo">
                     </div>
                     <div class="xmark-icon" id="xmark-icon">
                         <i class="fa-solid fa-xmark"></i>
@@ -21,6 +21,7 @@ function addNavbarToPage() {
                         <a href="../about-us.html">Haqqımızda</a>
                         <a href="#">fəaliyyətlər</a>
                         <a href="#">Uğurlarımız</a>
+                        <a href="../courses.html">Kurslarımız</a>
                         <a href="#">Nəticələr</a>
                         <a href="#">Sınaqlar</a>
                         <a href="#">Biletlər</a>
@@ -32,7 +33,7 @@ function addNavbarToPage() {
         </div>
         <div class="logo">
             <a href="#">
-                <img src="./texnoLogo.png" alt="logo">
+                <img src="../texnoLogo.png" alt="logo">
             </a>
         </div>
         <div class="nav-links">
@@ -44,7 +45,7 @@ function addNavbarToPage() {
                     <a href="#">Kursumuz <i class="fa-solid fa-angle-down"></i></a>
                 </div>
                 <div class="drop-elements">
-                    <a href="#">kurslar</a>
+                    <a href="../courses.html">kurslar</a>
                     <a href="#">Uğurlarımız</a>
                     <a href="#">fəaliyyətlər</a>
                 </div>
@@ -62,7 +63,7 @@ function addNavbarToPage() {
         </div>
           <div class="navbar-btns">
         <a class="whatsapp-btn" href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        <a class="register-btn" href="#"><i class="fa-solid fa-right-to-bracket"></i> <span>register</span></a>
+        <a class="register-btn" href="../register.html"><i class="fa-solid fa-right-to-bracket"></i> <span>register</span></a>
         <div class="menu-icon" id="menu-icon">
         <i class="fa-solid fa-bars"></i>
     </div>
@@ -81,8 +82,9 @@ function addNavbarToPage() {
         responsiveNavbar.classList.add("transformX");
     });
 
+
     xmarkIcon.addEventListener("click", function () {
-        responsiveNavbar.classList.remove("transformX");
+        responsiveNavbar.classList.remove('transformX')
     });
 }
 
@@ -91,7 +93,7 @@ function addMyScrollClassOnScroll() {
     window.addEventListener("scroll", function () {
         if (window.pageYOffset > 150) {
             navbar.classList.add("my-scroll");
-        } else if (window.pageYOffset < 60) {
+        } else if (window.pageYOffset < 70) {
             navbar.classList.remove("my-scroll");
         }
     });
@@ -132,7 +134,7 @@ function addFooterToPage() {
                         <li><i class="fa-solid fa-angles-right"></i><a href="../about-us.html">Haqqımızda</a></li>
                     </ul>
                     <ul>
-                        <li><i class="fa-solid fa-angles-right"></i><a href="../contact.html">ƏLaqə</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i><a href="../courses.html">Kurslarımız</a></li>
                     </ul>
                     <ul>
                         <li><i class="fa-solid fa-angles-right"></i><a href="#">Qeydiyyat</a></li>
@@ -144,7 +146,7 @@ function addFooterToPage() {
                 <div class="col-xl-3 col-md-6">
                     <h3>Faydalı Linklər</h3>
                     <ul>
-                        <li><i class="fa-solid fa-angles-right"></i><a href="#">Bizimlə əlaqə</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i><a href="../contact.html">Bizimlə əlaqə</a></li>
                     </ul>
                     <ul>
                         <li><i class="fa-solid fa-angles-right"></i><a href="#">Qaleriya</a></li>
@@ -203,7 +205,7 @@ fileName = fileName.replace(/\.[^/.]+$/, "");
 
 if (fileName === "index") {
     fileName = "Ana Sehife";
-} else if(fileName === ''){
+} else if (fileName === '') {
     fileName = "Ana Sehife"
 }
 

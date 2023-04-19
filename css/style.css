@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap");
+
 * {
     margin: 0;
     outline: none;
@@ -20,6 +22,7 @@ img {
 }
 
 .navbar-container {
+    font-family: "urbanist", sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -741,11 +744,7 @@ a {
     text-decoration: underline;
 }
 
-@media (max-width: 1200px) and (min-width: 768px) {
-    .container {
-        max-width: 95%;
-    }
-
+@media (max-width: 991px) and (min-width: 768px) {
     .form-section {
         padding: 0px !important;
     }
@@ -772,7 +771,7 @@ a {
         font-size: 55px !important;
     }
 
-    .hero .left-side p{
+    .hero .left-side p {
         font-size: 19px;
     }
 
@@ -808,13 +807,16 @@ a {
 }
 
 @media (max-width: 768px) {
-    .my-map{
+    .container {
+        max-width: 100%;
+    }
+    .my-map {
         padding: 0 !important;
     }
-    .my-map .col-md-12{
+    .my-map .col-md-12 {
         margin-bottom: 20px;
     }
-    .footer{
+    .footer {
         padding: 30px 0;
     }
     .about_us-video-section .container {
@@ -876,12 +878,13 @@ a {
     }
 }
 
-@media (max-width:450px){
-    .hero .left-side h1{
-        font-size: 45px !important;
+@media (max-width: 420px) {
+    .hero .left-side h1 {
+        font-size: 40px !important;
     }
-    .about-us .right-side h3{
-        font-size: 30px;
+    .about-us .right-side h3 {
+        font-size: 37px;
+        font-weight: 500;
     }
 }
 
@@ -998,7 +1001,7 @@ a {
 
 ._header {
     background-image: url(../images/header.jpg);
-    padding: 45px;
+    padding: 45px 5px;
     background-size: cover;
 }
 
@@ -1340,3 +1343,67 @@ a {
     width: 100%;
 }
 /* contact */
+
+/* courses */
+
+._courses {
+    font-family: "urbanist", sans-serif;
+    padding: 50px 0;
+}
+
+.courses_course-item .row {
+    padding: 30px 0;
+}
+
+.courses_course-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-family: 'urbanist', sans-serif;
+}
+
+.courses_course-item .courses_course-info h1 {
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.courses_course-info p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #505050;
+}
+
+.courses_course-item:nth-child(even) .row {
+    flex-direction: row-reverse;
+}
+.course-register-btn {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    font-weight: 600;
+    gap: 20px;
+    height: 45px;
+    border-radius: 25px;
+    align-items: center;
+    background-color: #525fe1;
+}
+
+.course-register-btn a {
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+/* courses */
+
+/* comp-courses */
+
+.comp_course-item {
+    padding: 20px;
+}
+
+.comp_course-item:nth-child(even) .row {
+    flex-direction: row-reverse;
+}
+
+/* comp-courses */
