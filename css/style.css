@@ -99,57 +99,90 @@ a {
 }
 
 /* dropdown */
-
-.dropdown {
+.drop-menu {
     display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    margin: 0;
+}
+.drop-menu > li {
+    display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
+    list-style: none;
     position: relative;
 }
 
-.dropdown .drop-btn {
-    display: flex;
-    position: relative;
-    align-items: center;
-    gap: 5px;
-    height: 70px;
-    font-size: 19 px;
-    cursor: pointer;
-    position: relative;
+.drop-menu > li i {
+    font-size: 16px;
+    padding-left: 7px;
 }
 
-.drop-btn a {
-    display: flex;
-    gap: 10px;
-}
-.drop-elements {
-    position: absolute;
-    height: 0px;
-    overflow: hidden;
+.sub-menu {
+    background-color: #fff;
     opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 150px;
+    list-style: none;
     z-index: 1;
-    top: 70px;
-    box-shadow: 0px 6px 15px #5f5f5f;
+    top: 65px;
     left: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 1px 1px 10px #0000001e;
+    transition: 0.3s all;
+}
+
+.drop-menu > li:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub-menu li > a {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 5px;
+    color: #231f40;
+}
+
+.sub-menu > li {
+    position: relative;
+}
+
+.sub-menu > li a {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.sub-menu .sub_sub-menu {
+    box-shadow: 1px 1px 10px #0000001e;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    visibility: hidden;
+    opacity: 0;
+    top: 0px;
+    padding: 5px;
+    transition: 0.3s;
+    list-style: none;
+    left: 148px;
+    background-color: #fff;
     width: 150px;
 }
 
-.dropdown:hover .drop-elements {
-    height: 150px;
+.sub-menu li:hover .sub_sub-menu {
+    visibility: visible;
     opacity: 1;
-    transition: 0.5s;
 }
-
-.drop-elements > a {
-    width: 100%;
-    border-bottom: 1px solid #252525;
-    height: 50px;
-    background-color: #ffffff;
-}
-
-.dropdown:hover .drop-elements {
-    top: 70px;
-}
+/* dropdown */
 
 .navbar-btns {
     display: flex;
@@ -1360,7 +1393,7 @@ a {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
-    font-family: 'urbanist', sans-serif;
+    font-family: "urbanist", sans-serif;
 }
 
 .courses_course-item .courses_course-info h1 {

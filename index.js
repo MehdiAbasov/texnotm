@@ -40,26 +40,30 @@ function addNavbarToPage() {
             <a href="../index.html">Ana Səhifə</a>
             <a href="../about-us.html">Haqqımızda</a>
             <a href="../contact.html">Əlaqə</a>
-            <div class="dropdown">
-                <div class="drop-btn">
-                    <a href="#">Kursumuz <i class="fa-solid fa-angle-down"></i></a>
-                </div>
-                <div class="drop-elements">
-                    <a href="../courses.html">kurslar</a>
-                    <a href="#">Uğurlarımız</a>
-                    <a href="#">fəaliyyətlər</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <div class="drop-btn">
-                    <a href="#">İmtahanlar <i class="fa-solid fa-angle-down"></i></a>
-                </div>
-                <div class="drop-elements">
-                    <a href="#">Sınaqlar</a>
-                    <a href="#">Biletlər</a>
-                    <a href="#">Nəticələr</a>
-                </div>
-            </div>
+            <ul class="drop-menu">
+            <li>
+                <a href="#">Kursumuz<i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="sub-menu">
+                    <li><a href="../courses.html">Kurslar <i class="fa-solid fa-arrow-right"></i></a>
+                        <ul class="sub_sub-menu">
+                            <li><a href="../courses/computer.html">komputer</a></li>
+                            <li><a href="#">blok</a></li>
+                            <li><a href="#">buraxılış</a></li>
+                            <li><a href="#">ümumi fənnlər</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Haqqımızda</a></li>
+                    <li><a href="#">Layihələr</a></li>
+                </ul>
+            </li>
+            <li><a href="#">İmtahanlar <i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="sub-menu">
+                    <li><a href="#">Nəticələr</a></li>
+                    <li><a href="#">Sınaqlar</a></li>
+                    <li><a href="#">Biletlər</a></li>
+                </ul>
+            </li>
+        </ul>
         </div>
           <div class="navbar-btns">
         <a class="whatsapp-btn" href="#"><i class="fa-brands fa-whatsapp"></i></a>
