@@ -101,9 +101,6 @@ function addMyScrollClassOnScroll() {
 
 document.addEventListener("DOMContentLoaded", addNavbarToPage);
 
-
-
-
 function addFooterToPage() {
     const footer = document.createElement("footer");
     footer.classList.add("my-footer");
