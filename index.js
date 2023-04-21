@@ -32,7 +32,7 @@ function addNavbarToPage() {
             </div>
         </div>
         <div class="logo">
-            <a href="#">
+            <a href="../index.html">
                 <img src="../texnoLogo.png" alt="logo">
             </a>
         </div>
