@@ -911,13 +911,33 @@ a {
     }
 }
 
-@media (max-width: 420px) {
+@media (min-width:400px) and (max-width: 450px) {
+    .hero .left-side {
+        max-width: 400px !important;
+    }
     .hero .left-side h1 {
-        font-size: 40px !important;
+        font-size: 48px !important;
     }
     .about-us .right-side h3 {
         font-size: 37px;
         font-weight: 500;
+    }
+}
+
+@media (max-width:400px){
+    .hero .left-side {
+        max-width: 400px !important;
+    }
+    .hero .left-side h1 {
+        font-size: 33px !important;
+    }
+    .about-us .right-side h3 {
+        font-size: 34px;
+        font-weight: 500;
+    }
+    .btns a{
+        width: 130px;
+        font-size: 17px;
     }
 }
 

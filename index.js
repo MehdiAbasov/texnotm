@@ -1,6 +1,5 @@
 function addNavbarToPage() {
     const navbar = document.createElement("nav");
-    navbar.classList.add("navbar");
     navbar.id = "myNavbar";
     navbar.innerHTML = `
     <div class="my-navbar" id="my-navbar">
@@ -50,6 +49,8 @@ function addNavbarToPage() {
                             <li><a href="#">blok</a></li>
                             <li><a href="#">buraxılış</a></li>
                             <li><a href="#">ümumi fənnlər</a></li>
+                            <li><a href="#">Miq hazırlıq</a></li>
+                            <li><a href="#">Məktəbə qədər</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Uğurlarımız</a></li>
