@@ -52,7 +52,7 @@ function addNavbarToPage() {
                             <li><a href="#">ümumi fənnlər</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Haqqımızda</a></li>
+                    <li><a href="#">Uğurlarımız</a></li>
                     <li><a href="#">Layihələr</a></li>
                 </ul>
             </li>
@@ -151,6 +151,12 @@ function addFooterToPage() {
                     </ul>
                     <ul>
                         <li><i class="fa-solid fa-angles-right"></i><a href="#">Qaleriya</a></li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-angles-right"></i><a href="#">Nəticələr</a></li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-angles-right"></i><a href="#">Sınaqlar</a></li>
                     </ul>
                     <ul>
                         <li><i class="fa-solid fa-angles-right"></i><a href="#">Teachers</a></li>
