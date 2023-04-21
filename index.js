@@ -53,7 +53,7 @@ function addNavbarToPage() {
                             <li><a href="#">Məktəbə qədər</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Uğurlarımız</a></li>
+                    <li><a href="../school/succes.html">Uğurlarımız</a></li>
                     <li><a href="#">Layihələr</a></li>
                 </ul>
             </li>
