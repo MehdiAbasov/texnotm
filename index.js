@@ -221,3 +221,39 @@ fileName = fileName.split(/\s+/).map(word => word.charAt(0).toUpperCase() + word
 
 // Sayfa başlığına dinamik olarak ekle
 document.title = getPageTitle(fileName);
+
+
+const serviceId = "service_yabhvtz"
+const templateId = "template_yts5ajy"
+
+const myForm = document.getElementById('contactForm')
+const btn = document.getElementById('submit')
+
+
+myForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const emailField = document.getElementById('contact-email')
+    btn.value = "sending...";
+
+    // E-posta adresi kontrolü
+    if (emailField.value.trim() === '') {
+        // E-posta adresi alanı boş ise hata mesajı göster
+        btn.disabled = true
+        alert('Lütfen geçerli bir e-posta adresi girin.');
+        return;
+    }
+    else {
+        btn.disabled = false
+    }
+
+
+    emailjs.sendForm(serviceId, templateId, this).then(
+        () => {
+            btn.value = "send";
+            alert("sent");
+        },
+        (err) => {
+            alert(JSON.stringify(err))
+        }
+    )
+});
