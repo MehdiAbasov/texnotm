@@ -7,18 +7,18 @@
         "courseLink": "courses/computer.html"
     },
     {
-        "courseName": "Blok fənləri",
+        "courseName": "Qrup fənləri",
         "courseImg": "images/course-img/blok.png",
         "courseInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo ipsum impedit aquaerat delectus perspiciatis adipisci odio beatae nobis? Exercitationem excepturiaccusantium velit sint nesciunt quasi neque saepe Omnis",
         "courseInfo2": "bu kursda siz öz grupunuza uyğun fənnlərə hazırlaşacaqsınız",
-        "courseLink": "courses/blok.html"
+        "courseLink": "/courses/grup-fenleri.html"
     },
     {
         "courseName": "Buraxılış fənləri",
         "courseImg": "images/course-img/buraxilis.png",
         "courseInfo2": "",
         "courseInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo ipsum impedit aquaerat delectus perspiciatis adipisci odio beatae nobis? Exercitationem excepturiaccusantium velit sint nesciunt quasi neque saepe Omnis",
-        "courseLink": "courses/buraxılış.html"
+        "courseLink": "courses/buraxilis-fenleri.html"
     },
     {
         "courseName": "MİQ ə hazırlıq",

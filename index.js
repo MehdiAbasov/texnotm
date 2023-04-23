@@ -43,16 +43,7 @@ function addNavbarToPage() {
             <li>
                 <a href="#">Kursumuz<i class="fa-solid fa-chevron-down"></i></a>
                 <ul class="sub-menu">
-                    <li><a href="../courses.html">Kurslar <i class="fa-solid fa-arrow-right"></i></a>
-                        <ul class="sub_sub-menu">
-                            <li><a href="../courses/computer.html">komputer</a></li>
-                            <li><a href="#">blok</a></li>
-                            <li><a href="#">buraxılış</a></li>
-                            <li><a href="#">ümumi fənnlər</a></li>
-                            <li><a href="#">Miq hazırlıq</a></li>
-                            <li><a href="#">Məktəbə qədər</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="../courses.html">Kurslar</a></li>
                     <li><a href="../school/succes.html">Uğurlarımız</a></li>
                     <li><a href="#">Layihələr</a></li>
                 </ul>
@@ -117,7 +108,7 @@ function addFooterToPage() {
                 <div class="col-xl-3 col-md-6">
                     <div class="footer-logo">
                         <a href="#">
-                            <img src="texnoLogo.png" alt="">
+                            <img src="../texnoLogo.png" alt="">
                         </a>
                     </div>
                     <p>bu sayt Mehdi Abasov tərəfindən Texno Tədris Mərkəzi üçün hazırlanmışdır.</p>
@@ -221,39 +212,3 @@ fileName = fileName.split(/\s+/).map(word => word.charAt(0).toUpperCase() + word
 
 // Sayfa başlığına dinamik olarak ekle
 document.title = getPageTitle(fileName);
-
-
-const serviceId = "service_yabhvtz"
-const templateId = "template_yts5ajy"
-
-const myForm = document.getElementById('contactForm')
-const btn = document.getElementById('submit')
-
-
-myForm.addEventListener("submit", function (e) {
-    e.preventDefault();
-    const emailField = document.getElementById('contact-email')
-    btn.value = "sending...";
-
-    // E-posta adresi kontrolü
-    if (emailField.value.trim() === '') {
-        // E-posta adresi alanı boş ise hata mesajı göster
-        btn.disabled = true
-        alert('Lütfen geçerli bir e-posta adresi girin.');
-        return;
-    }
-    else {
-        btn.disabled = false
-    }
-
-
-    emailjs.sendForm(serviceId, templateId, this).then(
-        () => {
-            btn.value = "send";
-            alert("sent");
-        },
-        (err) => {
-            alert(JSON.stringify(err))
-        }
-    )
-});
