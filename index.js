@@ -50,7 +50,7 @@ function addNavbarToPage() {
             </li>
             <li><a href="#">İmtahanlar <i class="fa-solid fa-chevron-down"></i></a>
                 <ul class="sub-menu">
-                    <li><a href="https://sinaqnetice.com/index.php?menu=resultMAN&opt=PARTICIPANT">Nəticələr</a></li>
+                    <li><a href="../school/neticeler.html">Nəticələr</a></li>
                     <li><a href="#">Sınaqlar</a></li>
                     <li><a href="#">Biletlər</a></li>
                 </ul>
