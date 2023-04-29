@@ -50,7 +50,7 @@ function addNavbarToPage() {
             </li>
             <li><a href="#">İmtahanlar <i class="fa-solid fa-chevron-down"></i></a>
                 <ul class="sub-menu">
-                    <li><a target="_blank" href="https://cavabnetice.az">Nəticələr</a></li>
+                    <li><a href="https://sinaqnetice.com/index.php?menu=resultMAN&opt=PARTICIPANT">Nəticələr</a></li>
                     <li><a href="#">Sınaqlar</a></li>
                     <li><a href="#">Biletlər</a></li>
                 </ul>
@@ -196,8 +196,8 @@ document.addEventListener("DOMContentLoaded", addFooterToPage);
 
 function getPageTitle(fileName) {
     return "TTM | " + fileName;
-} 
-    
+}
+
 // Dosya adını al
 var fileName = window.location.pathname.split('/').pop();
 fileName = fileName.replace(/\.[^/.]+$/, "");
