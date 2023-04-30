@@ -24,7 +24,7 @@ function addNavbarToPage() {
                         <a href="../school/neticeler.html">Nəticələr</a>
                         <a href="#">Sınaqlar</a>
                         <a href="#">Biletlər</a>
-                        <a href="#">Kurslar</a>
+                        <a href="../courses.html">Kurslar</a>
                         <a href="../contact.html">Əlaqə</a>
                     </div>
                 </div>
