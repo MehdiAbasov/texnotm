@@ -46,6 +46,7 @@ function addNavbarToPage() {
                     <li><a href="../courses.html">Kurslar</a></li>
                     <li><a href="../school/succes.html">Uğurlarımız</a></li>
                     <li><a href="#">Layihələr</a></li>
+                    <li><a href="../school/gallery.html">Qalereya</a></li>
                 </ul>
             </li>
             <li><a href="#">İmtahanlar <i class="fa-solid fa-chevron-down"></i></a>
@@ -142,7 +143,7 @@ function addFooterToPage() {
                         <li><i class="fa-solid fa-angles-right"></i><a href="../contact.html">Bizimlə əlaqə</a></li>
                     </ul>
                     <ul>
-                        <li><i class="fa-solid fa-angles-right"></i><a href="#">Qaleriya</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i><a href="../school/gallery.html">Qaleriya</a></li>
                     </ul>
                     <ul>
                         <li><i class="fa-solid fa-angles-right"></i><a href="#">Nəticələr</a></li>

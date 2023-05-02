@@ -911,7 +911,7 @@ a {
     }
 }
 
-@media (min-width:400px) and (max-width: 450px) {
+@media (min-width: 400px) and (max-width: 450px) {
     .hero .left-side {
         max-width: 400px !important;
     }
@@ -924,7 +924,7 @@ a {
     }
 }
 
-@media (max-width:400px){
+@media (max-width: 400px) {
     .hero .left-side {
         max-width: 400px !important;
     }
@@ -935,7 +935,7 @@ a {
         font-size: 34px;
         font-weight: 500;
     }
-    .btns a{
+    .btns a {
         width: 130px;
         font-size: 17px;
     }
@@ -1460,3 +1460,12 @@ a {
 }
 
 /* comp-courses */
+.gallery-item {
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

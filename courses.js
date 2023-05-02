@@ -1,6 +1,7 @@
 const courseContainer = document.getElementById('course_container')
 
 window.onload = getCourseData
+
 async function getCourseData() {
     const url = 'coursedata.json'
     const stringData = await fetch(url)
