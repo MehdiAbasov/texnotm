@@ -22,5 +22,17 @@
         "courseTime": "6",
         "courseTeacher": "Mehdi Abasov",
         "newLesson": "iyun"
+    },
+    {
+        "courseName": "WindowsƏS və Office365",
+        "courseImg": "../../images/course-img/office.jpg",
+        "courseAbout": "Qrafik Dizayn sahəsi günümzün ən məhşur sahələrindən olub, tələbatlı və yüksək maaşlı sahələrdən biridir. Qrafik Dizayn sahəsində siz öz biznesinizi reklam edəcək flayer, posterlər hazırlaya, həmçinin hər hansısa məhsulun üzlük fotosunu yarada, şirkətlər üçün reklamlar hazırlaya bilərsiniz.Qrafik dizayner olmaq üçün nələri bilmək lazımdır? photoshop, coreldrav kimi programları bilərək sizdə bu sahədə öz sözünüzü deyə bilərsiniz",
+        "courseDetail1": "Windows10 Əs",
+        "courseDetail2": "Word",
+        "courseDetail3": "Excel",
+        "courseDetail4": "Powerpoint",
+        "courseTime": "3",
+        "courseTeacher": "Mehdi Abasov",
+        "newLesson": "iyun"
     }
 ]
