@@ -1,0 +1,26 @@
+[
+    {
+        "courseName": "Qrafik Dizayn ",
+        "courseImg": "../../images/course-img/design.jpg",
+        "courseAbout": "Qrafik Dizayn sahəsi günümzün ən məhşur sahələrindən olub, tələbatlı və yüksək maaşlı sahələrdən biridir. Qrafik Dizayn sahəsində siz öz biznesinizi reklam edəcək flayer, posterlər hazırlaya, həmçinin hər hansısa məhsulun üzlük fotosunu yarada, şirkətlər üçün reklamlar hazırlaya bilərsiniz.Qrafik dizayner olmaq üçün nələri bilmək lazımdır? photoshop, coreldrav kimi programları bilərək sizdə bu sahədə öz sözünüzü deyə bilərsiniz",
+        "courseDetail1": "Photoshop",
+        "courseDetail2": "Coreldrav",
+        "courseDetail3": "Illustrator",
+        "courseTime": "3",
+        "courseTeacher": "Mehdi Abasov",
+        "newLesson": "iyul"
+    },
+    {
+        "courseName": "Front-End ",
+        "courseImg": "../../images/course-img/front-end.jpg",
+        "courseAbout": "Qrafik Dizayn sahəsi günümzün ən məhşur sahələrindən olub, tələbatlı və yüksək maaşlı sahələrdən biridir. Qrafik Dizayn sahəsində siz öz biznesinizi reklam edəcək flayer, posterlər hazırlaya, həmçinin hər hansısa məhsulun üzlük fotosunu yarada, şirkətlər üçün reklamlar hazırlaya bilərsiniz.Qrafik dizayner olmaq üçün nələri bilmək lazımdır? photoshop, coreldrav kimi programları bilərək sizdə bu sahədə öz sözünüzü deyə bilərsiniz",
+        "courseDetail1": "Html",
+        "courseDetail2": "Css",
+        "courseDetail3": "Javascript",
+        "courseDetail4": "React",
+        "courseDetail5": "Bootstrap",
+        "courseTime": "6",
+        "courseTeacher": "Mehdi Abasov",
+        "newLesson": "iyun"
+    }
+]
