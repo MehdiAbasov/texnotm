@@ -840,6 +840,9 @@ a {
 }
 
 @media (max-width: 768px) {
+    .course-details_img img{
+        height: auto !important;
+    }
     .container {
         max-width: 100%;
     }
