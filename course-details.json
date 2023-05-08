@@ -8,6 +8,7 @@
         "courseDetail3": "Illustrator",
         "courseTime": "3",
         "courseTeacher": "Mehdi Abasov",
+        "courseTeacherImg":"",
         "newLesson": "iyul"
     },
     {
@@ -21,6 +22,7 @@
         "courseDetail5": "Bootstrap",
         "courseTime": "6",
         "courseTeacher": "Mehdi Abasov",
+        "courseTeacherImg":"",
         "newLesson": "iyun"
     },
     {
@@ -33,6 +35,54 @@
         "courseDetail4": "Powerpoint",
         "courseTime": "3",
         "courseTeacher": "Mehdi Abasov",
+        "courseTeacherImg":"",
         "newLesson": "iyun"
+    },
+    {
+        "courseName": "Buraxılış fənnləri",
+        "courseImg": "../../images/buraxilis.png",
+        "courseAbout": "Qrafik Dizayn sahəsi günümzün ən məhşur sahələrindən olub, tələbatlı və yüksək maaşlı sahələrdən biridir. Qrafik Dizayn sahəsində siz öz biznesinizi reklam edəcək flayer, posterlər hazırlaya, həmçinin hər hansısa məhsulun üzlük fotosunu yarada, şirkətlər üçün reklamlar hazırlaya bilərsiniz.Qrafik dizayner olmaq üçün nələri bilmək lazımdır? photoshop, coreldrav kimi programları bilərək sizdə bu sahədə öz sözünüzü deyə bilərsiniz",
+        "courseDetail1": "Azərbaycan dili",
+        "courseDetail2": "Riyaziyyat",
+        "courseDetail3": "İngilis dili",
+        "courseTime": "9",
+        "courseTeacherImg1":"../../images/teachers/elmin.jpg",
+        "courseTeacherName1": "Elmin Ağayev",
+        "courseTeacherInfo1":"Azerbaycan Dili müəllimi",
+        "courseTeacherImg2":"../../images/teachers/elmin.jpg",
+        "courseTeacherName2": "Elmin Ağayev",
+        "courseTeacherInfo2":"Azerbaycan Dili müəllimi",
+        "courseTeacherImg3":"../../images/teachers/elmin.jpg",
+        "courseTeacherName3": "Elmin Ağayev",
+        "courseTeacherInfo3":"Azerbaycan Dili müəllimi",
+        "newLesson": "sentyabr"
+    },
+    {
+        "courseName": "Blok fənnləri",
+        "courseImg": "../../images/blok.png",
+        "courseAbout": "Qrafik Dizayn sahəsi günümzün ən məhşur sahələrindən olub, tələbatlı və yüksək maaşlı sahələrdən biridir. Qrafik Dizayn sahəsində siz öz biznesinizi reklam edəcək flayer, posterlər hazırlaya, həmçinin hər hansısa məhsulun üzlük fotosunu yarada, şirkətlər üçün reklamlar hazırlaya bilərsiniz.Qrafik dizayner olmaq üçün nələri bilmək lazımdır? photoshop, coreldrav kimi programları bilərək sizdə bu sahədə öz sözünüzü deyə bilərsiniz",
+        "courseDetail1": "Riyaziyyat",
+        "courseDetail2": "Kimya",
+        "courseDetail3": "Fizika",
+        "courseDetail4": "Riyaziyyat",
+        "courseDetail5": "Tarix",
+        "courseDetail6": "Coğrafiya",
+        "courseDetail7": "Azərbaycan Dili",
+        "courseDetail8": "Ədəbiyyat",
+        "courseDetail9": "Tarix",
+        "courseDetail10": "Biologiya",
+        "courseDetail11": "Kimya",
+        "courseDetail12": "Riyaziyyat",
+        "courseTime": "9",
+        "courseTeacherImg1":"../../images/teachers/elmin.jpg",
+        "courseTeacherName1": "Elmin Ağayev",
+        "courseTeacherInfo1":"Azerbaycan Dili müəllimi",
+        "courseTeacherImg2":"../../images/teachers/elmin.jpg",
+        "courseTeacherName2": "Elmin Ağayev",
+        "courseTeacherInfo2":"Azerbaycan Dili müəllimi",
+        "courseTeacherImg3":"../../images/teachers/elmin.jpg",
+        "courseTeacherName3": "Elmin Ağayev",
+        "courseTeacherInfo3":"Azerbaycan Dili müəllimi",
+        "newLesson": "sentyabr"
     }
 ]

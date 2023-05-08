@@ -114,9 +114,9 @@ function addFooterToPage() {
                     </div>
                     <p>bu sayt Mehdi Abasov tərəfindən Texno Tədris Mərkəzi üçün hazırlanmışdır.</p>
                     <div class="footer-icons">
-                        <a class="facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a class="instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a class="whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a class="f-facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="f-instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="f-whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6">
