@@ -203,14 +203,15 @@ a {
 
 .navbar-btns .register-btn {
     display: flex;
-    width: 120px;
+    width: 150px;
+    align-items: center;
     justify-content: center;
     font-weight: 600;
     gap: 20px;
+    text-align: center;
     height: 40px;
     color: #fff;
     border-radius: 20px;
-    align-items: center;
     background-color: #525fe1;
 }
 
@@ -811,21 +812,27 @@ a {
     .form-section {
         padding: 10px !important;
     }
+
     .testimonials {
         padding: 70px 0 !important;
     }
+
     .register-btn {
         width: 60px !important;
     }
+
     .register-btn span {
         display: none;
     }
+
     .nav-links {
         display: none;
     }
+
     .menu-icon {
         display: flex;
     }
+    
     .responsive-navbar {
         display: flex !important;
     }
@@ -1505,9 +1512,9 @@ a {
 
 .course-details_info .creator {
     display: flex;
-    height: 100%;
     align-items: center;
     color: #666;
+    gap: 10px;
     font-weight: 700;
     font-size: 20px;
 }
@@ -1579,6 +1586,9 @@ a {
 .search-input input:focus {
     border-radius: 5px;
     border: 1px solid #4535bc;
+}
+.course-details_right-side{
+    padding-top: 20px;
 }
 
 .course-details_right-side h3 {

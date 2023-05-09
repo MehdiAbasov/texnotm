@@ -19,7 +19,7 @@ function addNavbarToPage() {
                         <a href="../../index.html">Ana Səhifə</a>
                         <a href="../../about-us.html">Haqqımızda</a>
                         <a href="#">fəaliyyətlər</a>
-                        <a href="#">Uğurlarımız</a>
+                        <a href="../../school/succes.html">Uğurlarımız</a>
                         <a href="../../courses.html">Kurslarımız</a>
                         <a href="../../school/neticeler.html">Nəticələr</a>
                         <a href="#">Sınaqlar</a>
@@ -60,7 +60,7 @@ function addNavbarToPage() {
         </div>
           <div class="navbar-btns">
         <a class="whatsapp-btn" href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        <a class="register-btn" href="../../register.html"><i class="fa-solid fa-right-to-bracket"></i> <span>register</span></a>
+        <a class="register-btn" href="../../register.html"><i class="fa-solid fa-right-to-bracket"></i>qeydiyyat</a>
         <div class="menu-icon" id="menu-icon">
         <i class="fa-solid fa-bars"></i>
     </div>
@@ -213,3 +213,23 @@ fileName = fileName.split(/\s+/).map(word => word.charAt(0).toUpperCase() + word
 
 // Sayfa başlığına dinamik olarak ekle
 document.title = getPageTitle(fileName);
+
+$(document).ready(function () {
+    $('#option-group, #comp-option').hide(); // Sayfa yüklendiğinde grup seçimi ve komputer kursu seçimi öğeleri gizlenir.
+
+    $('#services-select').on('change', function () {
+        if ($(this).val() === 'qrup-fenleri' || $(this).val() === 'ümumi-fenler') { // "qrup-fenleri" seçeneği seçildiğinde
+            $('#option-group').show(); // grup seçimi öğesi görünür hale getirilir
+            $('#comp-option').hide(); // komputer kursu seçimi öğesi gizlenir
+        } else if ($(this).val() === 'komputer-kurslari') { // "komputer-kurslari" seçeneği seçildiğinde
+            $('#comp-option').show(); // komputer kursu seçimi öğesi görünür hale getirilir
+            $('#option-group').hide(); // grup seçimi öğesi gizlenir
+        }
+        else { // diğer seçenekler seçildiğinde
+            $('#option-group, #comp-option').hide(); // grup seçimi ve komputer kursu seçimi öğeleri gizlenir
+        }
+    });
+});
+
+var randomNum = Math.ceil(Math.random()*51) +50;
+console.log(randomNum)
