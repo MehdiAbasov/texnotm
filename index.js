@@ -181,7 +181,7 @@ function addFooterToPage() {
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>Copyright 2023 texnotm | <a href="#">created by Mehdi Abasov</a> | All rights reserved</p>
+                <p>Copyright <span id="footerYear"></span> texnotm | <a href="#">created by Mehdi Abasov</a> | All rights reserved</p>
             </div>
         </div>
     </div>
@@ -231,5 +231,32 @@ $(document).ready(function () {
     });
 });
 
-var randomNum = Math.ceil(Math.random()*51) +50;
+var randomNum = Math.ceil(Math.random() * 51) + 50;
 console.log(randomNum)
+
+const now = new Date();
+
+// Saat, dakika ve saniye değerlerini al
+const hours = now.getHours();
+const minutes = now.getMinutes();
+const seconds = now.getSeconds();
+
+// Saat formatını belirle (12 veya 24 saat)
+const format = hours >= 12 ? 'PM' : 'AM';
+
+// Saat, dakika ve saniye değerlerini birleştir ve ekrana yazdır
+const time = `${hours % 24}:${minutes < 10 ? '0' : ''}${minutes} ${format}`;
+console.log(time);
+
+window.onload = function () {
+    const now = new Date();
+    const year = now.getFullYear();
+    document.getElementById("footerYear").innerText = year;
+}
+
+window.onload = function() {
+let counter = 0;
+
+  counter++;
+  console.log("Toplam ziyaretçi sayısı: " + counter);
+};
