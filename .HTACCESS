@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# courses dizinine girildiğinde courses.html sayfasına yönlendir
+RewriteRule ^courses/?$ courses.html [L,NC]
+
+# courses dizini altındaki tüm HTML dosyaları için yönlendirme kuralları
+RewriteCond %{DOCUMENT_ROOT}/courses/$1.html -f
+RewriteRule ^courses/(.+?)/?$ courses/$1.html [L,NC]
+
+RewriteCond %{DOCUMENT_ROOT}/courses/course-details/$1.html -f
+RewriteRule ^courses/course-details/(.+)\.html$ /courses/$1 [L,R=301]
+
+# course-details dizinine girildiğinde /courses dizinine yönlendir
+RewriteRule ^courses/course-details/?$ /courses [L,NC]

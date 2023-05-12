@@ -60,7 +60,7 @@ function addNavbarToPage() {
         </div>
           <div class="navbar-btns">
         <a class="whatsapp-btn" href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        <a class="register-btn" href="../../register.html"><i class="fa-solid fa-right-to-bracket"></i>qeydiyyat</a>
+        <a class="register-btn" href="../../register.html"><i class="fa-solid fa-right-to-bracket"></i><span>qeydiyyat</span></a>
         <div class="menu-icon" id="menu-icon">
         <i class="fa-solid fa-bars"></i>
     </div>
@@ -230,33 +230,3 @@ $(document).ready(function () {
         }
     });
 });
-
-var randomNum = Math.ceil(Math.random() * 51) + 50;
-console.log(randomNum)
-
-const now = new Date();
-
-// Saat, dakika ve saniye değerlerini al
-const hours = now.getHours();
-const minutes = now.getMinutes();
-const seconds = now.getSeconds();
-
-// Saat formatını belirle (12 veya 24 saat)
-const format = hours >= 12 ? 'PM' : 'AM';
-
-// Saat, dakika ve saniye değerlerini birleştir ve ekrana yazdır
-const time = `${hours % 24}:${minutes < 10 ? '0' : ''}${minutes} ${format}`;
-console.log(time);
-
-window.onload = function () {
-    const now = new Date();
-    const year = now.getFullYear();
-    document.getElementById("footerYear").innerText = year;
-}
-
-window.onload = function() {
-let counter = 0;
-
-  counter++;
-  console.log("Toplam ziyaretçi sayısı: " + counter);
-};

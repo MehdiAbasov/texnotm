@@ -312,7 +312,7 @@ async function getCourseInfo() {
 
     try {
         qrupContainer.innerHTML =
-                 `
+            `
                 <div class="col-xl-8 course-details_left-side">
                     <div class="course-details_img">
                         <img src="${JSONData[4].courseImg}" alt="">
@@ -334,24 +334,32 @@ async function getCourseInfo() {
                     <h3>${JSONData[4].courseName} Kursu</h3>
                     <p>${JSONData[4].courseAbout}</p>
                     <h3>Nələr tədris olunacaq :</h3>
-                    <h3>1 ci qruplar:</h3>
-                    <ul class="course-detail">
-                        <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail1}</li>
-                        <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail2}</li>
-                        <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail3}</li>
-                    </ul>
-                    <h3>2 ci qruplar:</h3>
-                    <ul class="course-detail">
-                        <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail4}</li>
-                        <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail5}</li>
-                        <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail6}</li>
-                    </ul>
-                    <h3>3 ci qruplar:</h3>
-                    <ul class="course-detail">
-                        <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail7}</li>
-                        <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail8}</li>
-                        <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail9}</li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <h3>1 ci qruplar:</h3>
+                            <ul class="course-detail">
+                                    <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail1}</li>
+                                    <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail2}</li>
+                                    <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail3}</li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <h3>2 ci qruplar:</h3>
+                            <ul class="course-detail">
+                                <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail4}</li>
+                                <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail5}</li>
+                                <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail6}</li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <h3>3 ci qruplar:</h3>
+                            <ul class="course-detail">
+                                <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail7}</li>
+                                <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail8}</li>
+                                <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail9}</li>
+                            </ul>
+                        </div>
+                    </div>
                     <h3>4 ci qruplar:</h3>
                     <ul class="course-detail">
                         <li><i class="fa-solid fa-circle-check"></i>${JSONData[4].courseDetail10}</li>
@@ -364,74 +372,6 @@ async function getCourseInfo() {
                         <li><i class="fa-solid fa-circle-plus"></i>İmtahan ərəfələrində əlavə dərs saatları</li>
                         <li><i class="fa-solid fa-circle-plus"></i>blokdan yüksək nəticə</li>
                     </ul>
-                    <h3>Müəllimlər</h3>
-                    <div class="row"><h3>1 ci qrup:</h3>
-                        <div class="col-xl-4 col-md-4">
-                            <div class="course-teacher-img">
-                               <img src="${JSONData[4].courseTeacherImg1}" alt="">
-                            </div>
-                            <h3>${JSONData[4].courseTeacherName1}</h3>
-                            <p>${JSONData[4].courseTeacherInfo1}</p>
-                        </div>
-                        <div class="col-xl-4 col-md-4">
-                            <div class="course-teacher-img">
-                                <img src="${JSONData[4].courseTeacherImg2}" alt="">
-                            </div>
-                            <h3>${JSONData[4].courseTeacherName2}</h3>
-                            <p>${JSONData[4].courseTeacherInfo2}</p>
-                        </div>
-                        <div class="col-xl-4 col-md-4">
-                            <div class="course-teacher-img">
-                                <img src="${JSONData[4].courseTeacherImg3}" alt="">
-                            </div>
-                            <h3>${JSONData[4].courseTeacherName3}</h3>
-                            <p>${JSONData[4].courseTeacherInfo3}</p>
-                        </div>
-                        <h3>2 ci qrup:</h3>
-                        <div class="col-xl-4 col-md-4">
-                            <div class="course-teacher-img">
-                               <img src="${JSONData[4].courseTeacherImg1}" alt="">
-                            </div>
-                            <h3>${JSONData[4].courseTeacherName1}</h3>
-                            <p>${JSONData[4].courseTeacherInfo1}</p>
-                        </div>
-                        <div class="col-xl-4 col-md-4">
-                            <div class="course-teacher-img">
-                                <img src="${JSONData[4].courseTeacherImg2}" alt="">
-                            </div>
-                            <h3>${JSONData[4].courseTeacherName2}</h3>
-                            <p>${JSONData[4].courseTeacherInfo2}</p>
-                        </div>
-                        <div class="col-xl-4 col-md-4">
-                            <div class="course-teacher-img">
-                                <img src="${JSONData[4].courseTeacherImg3}" alt="">
-                            </div>
-                            <h3>${JSONData[4].courseTeacherName3}</h3>
-                            <p>${JSONData[4].courseTeacherInfo3}</p>
-                        </div>
-                        <h3>3 ci qrup:</h3>
-                        <div class="col-xl-4 col-md-4">
-                            <div class="course-teacher-img">
-                               <img src="${JSONData[4].courseTeacherImg1}" alt="">
-                            </div>
-                            <h3>${JSONData[4].courseTeacherName1}</h3>
-                            <p>${JSONData[4].courseTeacherInfo1}</p>
-                        </div>
-                        <div class="col-xl-4 col-md-4">
-                            <div class="course-teacher-img">
-                                <img src="${JSONData[4].courseTeacherImg2}" alt="">
-                            </div>
-                            <h3>${JSONData[4].courseTeacherName2}</h3>
-                            <p>${JSONData[4].courseTeacherInfo2}</p>
-                        </div>
-                        <div class="col-xl-4 col-md-4">
-                            <div class="course-teacher-img">
-                                <img src="${JSONData[4].courseTeacherImg3}" alt="">
-                            </div>
-                            <h3>${JSONData[4].courseTeacherName3}</h3>
-                            <p>${JSONData[4].courseTeacherInfo3}</p>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-xl-4 course-details_right-side">
                     <div class="search-input">
@@ -461,6 +401,6 @@ async function getCourseInfo() {
                 </div>
     `
     }
-    catch (e) { }    
+    catch (e) { }
 }
 
