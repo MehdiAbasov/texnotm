@@ -8,7 +8,6 @@
 body {
     overflow-x: hidden;
 }
-
 img {
     width: 100%;
 }
@@ -804,7 +803,7 @@ a {
         font-size: 55px !important;
     }
 
-    .computer-course-img{
+    .computer-course-img {
         height: auto !important;
     }
 
@@ -835,7 +834,7 @@ a {
     .menu-icon {
         display: flex;
     }
-    
+
     .responsive-navbar {
         display: flex !important;
     }
@@ -850,8 +849,17 @@ a {
 }
 
 @media (max-width: 768px) {
-    ._header h2{
+    .course-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    ._header h2 {
         font-size: 33px !important;
+    }
+
+    .homepage-ads .instagram-img {
+        margin-top: 100px;
     }
     .course-details_img img {
         height: auto !important;
@@ -925,6 +933,21 @@ a {
     .about-img h4 {
         font-size: 15px;
     }
+
+    .homepage-ads .ads-left-side h2 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .hero .left-side h1 {
+        font-size: 58px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero .left-side h1 {
+        font-size: 44.3px !important;
+    }
 }
 
 @media (min-width: 400px) and (max-width: 450px) {
@@ -932,24 +955,27 @@ a {
         max-width: 400px !important;
     }
     .hero .left-side h1 {
-        font-size: 48px !important;
+        font-size: 46px !important;
     }
     .about-us .right-side h3 {
-        font-size: 37px;
-        font-weight: 500;
-    }
-
-    ._header .page_links a{
-    
+        font-size: 30px;
     }
 }
 
 @media (max-width: 400px) {
+    .about-us .right-side h3 {
+        line-height: 40px;
+        font-size: 27px !important;
+    }
+    .course-img {
+        width: 170px;
+        height: 170px;
+    }
     .hero .left-side {
         max-width: 400px !important;
     }
     .hero .left-side h1 {
-        font-size: 33px !important;
+        font-size: 37px !important;
     }
     .about-us .right-side h3 {
         font-size: 34px;
@@ -1254,14 +1280,12 @@ a {
     display: flex;
     gap: 30px;
     align-items: center;
-
 }
 
-.comment-info i{
+.comment-info i {
     color: #285aeb;
     font-size: 30px;
 }
-
 
 .comment-writer p {
     color: #3f14dc;
@@ -1482,10 +1506,10 @@ a {
     flex-direction: row-reverse;
 }
 
-.computer-course-img{
+.computer-course-img {
     height: 500px;
 }
-.computer-course-img img{
+.computer-course-img img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -1599,7 +1623,7 @@ a {
     border-radius: 5px;
     border: 1px solid #4535bc;
 }
-.course-details_right-side{
+.course-details_right-side {
     padding-top: 20px;
 }
 
@@ -1664,48 +1688,48 @@ a {
     border-radius: 40px;
 }
 
-.instagram-img{
-    height: 500px;
+.instagram-img {
+    height: 100%;
 }
 
-.instagram-img img{
+.instagram-img img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
-.homepage-ads{
+.homepage-ads {
     padding: 40px 0;
+    margin: 50px 0;
 }
 
-.homepage-ads .row{
+.homepage-ads .row {
     display: flex;
     align-items: center;
 }
 
-.ads-left-side{
+.ads-left-side {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.ads-left-side h2{
+.ads-left-side h2 {
     font-size: 45px;
     font-weight: 800;
-    background: -webkit-linear-gradient(80deg , #fd5949 30%, #d6249f 50%, #285aeb 90%);
+    background: -webkit-linear-gradient(80deg, #fd5949 30%, #d6249f 50%, #285aeb 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: system-ui, -apple-system,  'Segoe UI',  sans-serif;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
-.ads-left-side p{
+.ads-left-side p {
     font-size: 20px;
     padding-right: 30px;
     font-weight: 600;
     color: #818181;
 }
 
-.ads-left-side a{
+.ads-left-side a {
     display: flex;
     width: 200px;
     color: #fff;
@@ -1714,4 +1738,78 @@ a {
     justify-content: center;
     font-weight: 600;
     background: linear-gradient(10deg, #fdcd97 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
+._exams {
+    margin: 50px 0;
+}
+
+._exams h2 {
+    font-family: "urbanist", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px;
+    color: #3f14dc;
+}
+
+._exams h4.exam-p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#exam-row {
+    margin: 70px 0;
+}
+
+#exam-row .col-md-6 {
+    padding: 0 10px;
+}
+
+.exam-item {
+    background-color: #231f40;
+    box-shadow: 0 5px 15px #5e5efe;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    gap: 5px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.exam-item h4 {
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "urbanist", sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.exam-item p {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "urbanist", sans-serif;
+    letter-spacing: 2px;
+}
+
+.exam-item a {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    width: 150px;
+    font-family: "urbanist", sans-serif;
+    font-size: 19px;
+    border-radius: 30px;
+    position: relative;
+    background-color: #322b69;
+}
+
+.exam-item a:hover {
+    background-color: #3f14dc;
+    transition: 0.3s ease-in-out;
 }

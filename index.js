@@ -14,7 +14,7 @@ function addNavbarToPage() {
                         <i class="fa-solid fa-xmark"></i>
                     </div>
                 </div>
-                <div class="navbar-bottom">
+                <div class="navbar-bottom"> 
                     <div class="res-nav-links">
                         <a href="../../index.html">Ana Səhifə</a>
                         <a href="../../about-us.html">Haqqımızda</a>
@@ -52,8 +52,8 @@ function addNavbarToPage() {
             <li><a href="#">İmtahanlar <i class="fa-solid fa-chevron-down"></i></a>
                 <ul class="sub-menu">
                     <li><a href="../../school/neticeler.html">Nəticələr</a></li>
-                    <li><a href="#">Sınaqlar</a></li>
-                    <li><a href="#">Biletlər</a></li>
+                    <li><a href="../../school/exams.html">Sınaqlar</a></li>
+                    <li><a href="../../school/tickets.html">Biletlər</a></li>
                 </ul>
             </li>
         </ul>
@@ -78,7 +78,6 @@ function addNavbarToPage() {
     menuIcon.addEventListener("click", function () {
         responsiveNavbar.classList.add("transformX");
     });
-
 
     xmarkIcon.addEventListener("click", function () {
         responsiveNavbar.classList.remove('transformX')
@@ -210,23 +209,22 @@ if (fileName === "index") {
 }
 
 fileName = fileName.split(/\s+/).map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-
 // Sayfa başlığına dinamik olarak ekle
 document.title = getPageTitle(fileName);
 
 $(document).ready(function () {
-    $('#option-group, #comp-option').hide(); // Sayfa yüklendiğinde grup seçimi ve komputer kursu seçimi öğeleri gizlenir.
+    $('#option-group, #comp-option').hide();
 
     $('#services-select').on('change', function () {
-        if ($(this).val() === 'qrup-fenleri' || $(this).val() === 'ümumi-fenler') { // "qrup-fenleri" seçeneği seçildiğinde
-            $('#option-group').show(); // grup seçimi öğesi görünür hale getirilir
-            $('#comp-option').hide(); // komputer kursu seçimi öğesi gizlenir
-        } else if ($(this).val() === 'komputer-kurslari') { // "komputer-kurslari" seçeneği seçildiğinde
-            $('#comp-option').show(); // komputer kursu seçimi öğesi görünür hale getirilir
-            $('#option-group').hide(); // grup seçimi öğesi gizlenir
+        if ($(this).val() === 'qrup-fenleri' || $(this).val() === 'ümumi-fenler') {
+            $('#option-group').show();
+            $('#comp-option').hide();
+        } else if ($(this).val() === 'komputer-kurslari') {
+            $('#comp-option').show();
+            $('#option-group').hide();
         }
-        else { // diğer seçenekler seçildiğinde
-            $('#option-group, #comp-option').hide(); // grup seçimi ve komputer kursu seçimi öğeleri gizlenir
+        else {
+            $('#option-group, #comp-option').hide();
         }
     });
 });
