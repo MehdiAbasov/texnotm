@@ -597,7 +597,7 @@ a {
     padding: 0 20px;
     font-size: 18px;
     font-weight: 600;
-    border-radius: 50px !important;
+    /* border-radius: 50px !important; */
     border: 1px solid #cbcbcb;
     outline: none;
 }
@@ -1744,7 +1744,11 @@ a {
     margin: 50px 0;
 }
 
-._exams h2 {
+.page-info {
+    margin-bottom: 50px;
+}
+
+.page-info h2 {
     font-family: "urbanist", sans-serif;
     font-size: 30px;
     font-weight: 600;
@@ -1753,10 +1757,12 @@ a {
     color: #3f14dc;
 }
 
-._exams h4.exam-p {
+.page-info h4 {
     font-size: 25px;
     text-align: center;
+    color: #505050;
     font-weight: 700;
+    font-family: "urbanist", sans-serif;
 }
 
 #exam-row {
@@ -1812,4 +1818,19 @@ a {
 .exam-item a:hover {
     background-color: #3f14dc;
     transition: 0.3s ease-in-out;
+}
+
+#copy-kod{
+    padding: 10px;
+    background-color: #02f7ff;
+}
+
+.alert-msg {
+    background-color: rgba(255, 189, 58, 0.525);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    color: rgba(253, 22, 22, 0.784);
+    margin: 20px 0;
 }
