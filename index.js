@@ -20,7 +20,7 @@ function addNavbarToPage() {
                         <a href="../../about-us.html">Haqqımızda</a>
                         <a href="#">fəaliyyətlər</a>
                         <a href="../../school/succes.html">Uğurlarımız</a>
-                        <a href="../../school/teacher.html">Müəllimlər</a>
+                        <a href="../../school/teachers.html">Müəllimlər</a>
                         <a href="../../courses.html">Kurslarımız</a>
                         <a href="../../school/neticeler.html">Nəticələr</a>
                         <a href="../../school/exams.html">Sınaqlar</a>
