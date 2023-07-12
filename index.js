@@ -20,6 +20,7 @@ function addNavbarToPage() {
                         <a href="../../about-us.html">Haqqımızda</a>
                         <a href="#">fəaliyyətlər</a>
                         <a href="../../school/succes.html">Uğurlarımız</a>
+                        <a href="../../school/teacher.html">Müəllimlər</a>
                         <a href="../../courses.html">Kurslarımız</a>
                         <a href="../../school/neticeler.html">Nəticələr</a>
                         <a href="../../school/exams.html">Sınaqlar</a>
@@ -45,6 +46,7 @@ function addNavbarToPage() {
                 <ul class="sub-menu">
                     <li><a href="../../courses.html">Kurslar</a></li>
                     <li><a href="../../school/succes.html">Uğurlarımız</a></li>
+                    <li><a href="../../school/teachers.html">Müəllimlər</a></li>
                     <li><a href="#">Layihələr</a></li>
                     <li><a href="../../school/gallery.html">Qalereya</a></li>
                 </ul>
@@ -151,7 +153,7 @@ function addFooterToPage() {
                         <li><i class="fa-solid fa-angles-right"></i><a href="#">Sınaqlar</a></li>
                     </ul>
                     <ul>
-                        <li><i class="fa-solid fa-angles-right"></i><a href="#">Teachers</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i><a href="../../school/teachers.html">Müəllimlər</a></li>
                     </ul>
                     <ul>
                         <li><i class="fa-solid fa-angles-right"></i><a href="#">Layihələr</a></li>

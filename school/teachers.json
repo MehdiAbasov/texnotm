@@ -1,0 +1,32 @@
+[
+    {
+        "teacherName": "Mahir Hidayetov",
+        "teacherImg": "../images/teachers/mahirM.jpg",
+        "teacherInfo": "Texno Tədris Mərkəzi Rəhbəri"
+    },
+    {
+        "teacherName": "Elmin Agayev",
+        "teacherImg": "../images/teachers/elmin.jpg",
+        "teacherInfo": "Dil-ədəbiyyat müəllimi"
+    },
+    {
+        "teacherName": "Mirkənan Shahbazov",
+        "teacherImg": "../images/teachers/mirkənan.jpg",
+        "teacherInfo": "Coğrafiya Müəllimi"
+    },
+    {
+        "teacherName": "MirSənan Shahbazov",
+        "teacherImg": "../images/teachers/mirsənan.jpg",
+        "teacherInfo": "Tarix Müəllimi"
+    },
+    {
+        "teacherName": "Rəşad İbadov",
+        "teacherImg": "../images/teachers/resad.jpg",
+        "teacherInfo": "Tarix Müəllimi"
+    },
+    {
+        "teacherName": "Adəm Əliyev",
+        "teacherImg": "../images/teachers/adem.jpg",
+        "teacherInfo": "Riyaziyyat Müəllimi"
+    }
+]
