@@ -1151,14 +1151,14 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .teacher .teacher-img {
     width: 250px;
     height: 250px;
     padding: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -1719,7 +1719,11 @@ a {
     background: -webkit-linear-gradient(80deg, #fd5949 30%, #d6249f 50%, #285aeb 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-family:
+        system-ui,
+        -apple-system,
+        "Segoe UI",
+        sans-serif;
 }
 
 .ads-left-side p {
@@ -1820,7 +1824,7 @@ a {
     transition: 0.3s ease-in-out;
 }
 
-#copy-kod{
+#copy-kod {
     padding: 10px;
     background-color: #02f7ff;
 }
@@ -1834,6 +1838,37 @@ a {
     color: rgba(253, 22, 22, 0.784);
     margin: 20px 0;
 }
-._teachers-teacher{
-margin-bottom: 40px;
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.center a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 300px;
+    color: #fff;
+    background-color: #c1a6ff;
+}
+
+.center a:hover {
+    background-color: #5e5efe;
+    transition: 0.5s ease;
+}
+.teacher-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.teacher-header h2{
+    color: #231f40;
+    font-weight: 700;
+    font-family: "urbanist", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
 }

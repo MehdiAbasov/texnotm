@@ -25,6 +25,16 @@
         "teacherInfo": "Tarix Müəllimi"
     },
     {
+        "teacherName": "Vüqar Hacızadə",
+        "teacherImg": "../images/teachers/vuqar.jpg",
+        "teacherInfo": "Coğrafiya Müəllimi"
+    },
+    {
+        "teacherName": "Amid Əzizov",
+        "teacherImg": "../images/teachers/amid.jpg",
+        "teacherInfo": "kimya Müəllimi"
+    },
+    {
         "teacherName": "Adəm Əliyev",
         "teacherImg": "../images/teachers/adem.jpg",
         "teacherInfo": "Riyaziyyat Müəllimi"
