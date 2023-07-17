@@ -16,7 +16,7 @@ async function getExams() {
                         <h4>${myJSONData[i].examName} imtahani</h4>
                         <p>${myJSONData[i].examInfo}</p>
                         <p>imtahan tarixi: ${myJSONData[i].examDate}</p>
-                        <a href="./tickets.html">bilet al <i class="fa-solid fa-arrow-right"></i></a>
+                        <a target="_blank" href="https://wa.me/0506659714">bilet al <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             `

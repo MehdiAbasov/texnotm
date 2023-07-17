@@ -11,8 +11,8 @@ async function getTeacherData() {
         for (let i = 0; i < myJSONData.length; i++) {
             teacherContainer.innerHTML +=
                 `
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                    <div class="teacher _teachers-teacher">
+            <div class="col-xl-3 col-lg-6 col-md-6 ">
+                    <div class="teacher">
                         <div class="teacher-img">
                             <img src="${myJSONData[i].teacherImg}" alt="">
                             <div class="teacher-media-links">
