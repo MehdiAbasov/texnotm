@@ -61,7 +61,7 @@ function addNavbarToPage() {
         </ul>
         </div>
           <div class="navbar-btns">
-        <a class="whatsapp-btn" target="_blank" href="https://wa.me/0506659714"><i class="fa-brands fa-whatsapp"></i></a>
+        <a class="whatsapp-btn" target="_blank" href="https://wa.me/+9940506659714"><i class="fa-brands fa-whatsapp"></i></a>
         <a class="register-btn" href="../../register.html"><i class="fa-solid fa-right-to-bracket"></i><span>qeydiyyat</span></a>
         <div class="menu-icon" id="menu-icon">
         <i class="fa-solid fa-bars"></i>
