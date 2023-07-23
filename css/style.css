@@ -228,8 +228,8 @@ a {
     left: 0;
     width: 90%;
     height: 100vh;
-    background-color: #042130;
-    z-index: 2;
+    background-color: #231f40;
+    z-index: 9999;
     display: none;
     transition: 0.7s linear;
     transform: translateX(-1200px);
