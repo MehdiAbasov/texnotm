@@ -19,13 +19,26 @@ function addNavbarToPage() {
                         <a href="../../index.html">Ana Səhifə</a>
                         <a href="../../about-us.html">Haqqımızda</a>
                         <a href="#">fəaliyyətlər</a>
-                        <a href="../../school/succes.html">Uğurlarımız</a>
-                        <a href="../../school/teachers.html">Müəllimlər</a>
-                        <a href="../../courses.html">Kurslarımız</a>
-                        <a href="../../school/neticeler.html">Nəticələr</a>
-                        <a href="../../school/exams.html">Sınaqlar</a>
-                        <a href="../../school/tickets.html">Biletlər</a>
-                        <a href="../../courses.html">Kurslar</a>
+                        <div class="dropdown">
+                            <a href="#" class="my-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Kursumuz
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a href="../../courses.html">Kurslarımız</a>
+                                <a href="../../school/teachers.html">Müəllimlər</a>
+                                <a href="../../school/succes.html">Uğurlarımız</a>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <a href="#" class="my-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                İmtahanlar
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a href="../../school/neticeler.html">Nəticələr</a>
+                                <a href="../../school/exams.html">Sınaqlar</a>
+                                <a href="../../school/tickets.html">Biletlər</a>
+                            </ul>
+                        </div>
                         <a href="../../contact.html">Əlaqə</a>
                     </div>
                 </div>
