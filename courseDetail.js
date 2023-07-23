@@ -233,30 +233,6 @@ async function getCourseInfo() {
                         <li><i class="fa-solid fa-circle-plus"></i>İmtahan ərəfələrində əlavə dərs saatları</li>
                         <li><i class="fa-solid fa-circle-plus"></i>buraxılışdan yüksək nəticə</li>
                     </ul>
-                    <h3>Müəllimlər</h3>
-                    <div class="row">
-                        <div class="col-xl-4 col-md-4">
-                            <div class="course-teacher-img">
-                               <img src="${JSONData[3].courseTeacherImg1}" alt="">
-                            </div>
-                            <h3>${JSONData[3].courseTeacherName1}</h3>
-                            <p>${JSONData[3].courseTeacherInfo1}</p>
-                        </div>
-                        <div class="col-xl-4 col-md-4">
-                            <div class="course-teacher-img">
-                                <img src="${JSONData[3].courseTeacherImg2}" alt="">
-                            </div>
-                            <h3>${JSONData[3].courseTeacherName2}</h3>
-                            <p>${JSONData[3].courseTeacherInfo2}</p>
-                        </div>
-                        <div class="col-xl-4 col-md-4">
-                            <div class="course-teacher-img">
-                                <img src="${JSONData[3].courseTeacherImg3}" alt="">
-                            </div>
-                            <h3>${JSONData[3].courseTeacherName3}</h3>
-                            <p>${JSONData[3].courseTeacherInfo3}</p>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-xl-4 course-details_right-side">
                     <div class="search-input">
