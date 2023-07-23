@@ -7,8 +7,7 @@
         "courseDetail2": "Coreldrav",
         "courseDetail3": "Illustrator",
         "courseTime": "3",
-        "courseTeacher": "Mehdi Abasov",
-        "courseTeacherImg": "",
+
         "newLesson": "iyul"
     },
     {
@@ -22,7 +21,6 @@
         "courseDetail5": "Bootstrap",
         "courseDetail6": "sass",
         "courseTime": "6",
-        "courseTeacherImg": "",
         "newLesson": "iyun"
     },
     {
@@ -34,7 +32,6 @@
         "courseDetail3": "Excel",
         "courseDetail4": "Powerpoint",
         "courseTime": "3",
-        "courseTeacherImg": "",
         "newLesson": "iyun"
     },
     {
