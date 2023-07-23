@@ -8,7 +8,7 @@
         "courseDetail3": "Illustrator",
         "courseTime": "3",
         "courseTeacher": "Mehdi Abasov",
-        "courseTeacherImg":"",
+        "courseTeacherImg": "",
         "newLesson": "iyul"
     },
     {
@@ -23,7 +23,7 @@
         "courseDetail6": "sass",
         "courseTime": "6",
         "courseTeacher": "Mehdi Abasov",
-        "courseTeacherImg":"",
+        "courseTeacherImg": "",
         "newLesson": "iyun"
     },
     {
@@ -36,7 +36,7 @@
         "courseDetail4": "Powerpoint",
         "courseTime": "3",
         "courseTeacher": "Mehdi Abasov",
-        "courseTeacherImg":"",
+        "courseTeacherImg": "",
         "newLesson": "iyun"
     },
     {
@@ -47,15 +47,15 @@
         "courseDetail2": "Riyaziyyat",
         "courseDetail3": "İngilis dili",
         "courseTime": "9",
-        "courseTeacherImg1":"../../images/teachers/elmin.jpg",
+        "courseTeacherImg1": "../../images/teachers/elmin.jpg",
         "courseTeacherName1": "Elmin Ağayev",
-        "courseTeacherInfo1":"Azerbaycan Dili müəllimi",
-        "courseTeacherImg2":"../../images/teachers/elmin.jpg",
+        "courseTeacherInfo1": "Azerbaycan Dili müəllimi",
+        "courseTeacherImg2": "../../images/teachers/elmin.jpg",
         "courseTeacherName2": "Elmin Ağayev",
-        "courseTeacherInfo2":"Azerbaycan Dili müəllimi",
-        "courseTeacherImg3":"../../images/teachers/elmin.jpg",
+        "courseTeacherInfo2": "Azerbaycan Dili müəllimi",
+        "courseTeacherImg3": "../../images/teachers/elmin.jpg",
         "courseTeacherName3": "Elmin Ağayev",
-        "courseTeacherInfo3":"Azerbaycan Dili müəllimi",
+        "courseTeacherInfo3": "Azerbaycan Dili müəllimi",
         "newLesson": "sentyabr"
     },
     {
@@ -96,6 +96,26 @@
         "courseDetail13": "Biologiya",
         "courseDetail14": "Kimya",
         "courseDetail15": "Riyaziyyat",
+        "courseTime": "9",
+        "newLesson": "sentyabr"
+    },
+    {
+        "courseName": "MIQ ə hazırlıq",
+        "courseImg": "../../images/course-img/miq.png",
+        "courseAbout":"Müəllimlərin işə qəbul imtahanına hazırlıq",
+        "courseDetail1": "Azərbaycan dili",
+        "courseDetail2": "Riyaziyyat",
+        "courseDetail3": "İngilis dili",    
+        "courseTime": "9",
+        "newLesson": "sentyabr" 
+    },  
+    {
+        "courseName": "Təkminləşdirmə",
+        "courseImg": "../../images/course-img/təkminləşdirmə.png",
+        "courseAbout":"5-8 ci siniflər üçün azərbaycan dili, riyaziyyat, ingilis dili hazırlığı",
+        "courseDetail1": "Azərbaycan dili",
+        "courseDetail2": "Riyaziyyat",
+        "courseDetail3": "İngilis dili",    
         "courseTime": "9",
         "newLesson": "sentyabr"
     }

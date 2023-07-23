@@ -2,36 +2,43 @@
     {
         "courseName": "Komputer kursları",
         "courseImg": "images/course-img/comp-img.jpg",
-        "courseInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo ipsum impedit aquaerat delectus perspiciatis adipisci odio beatae nobis? Exercitationem excepturiaccusantium velit sint nesciunt quasi neque saepe Omnis",
+        "courseInfo": "Komputer bilikləri günümüzdə olmazsa olmazdır. sizdə övladlarınızın komputer biliklərini bizimlə inkişaf etdirin",
         "courseInfo2": "",
         "courseLink": "courses/computer.html"
-    },
-    {
-        "courseName": "Qrup fənləri",
-        "courseImg": "images/course-img/blok.png",
-        "courseInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo ipsum impedit aquaerat delectus perspiciatis adipisci odio beatae nobis? Exercitationem excepturiaccusantium velit sint nesciunt quasi neque saepe Omnis",
-        "courseInfo2": "bu kursda siz öz grupunuza uyğun fənnlərə hazırlaşacaqsınız",
-        "courseLink": "/courses/grup-fenleri.html"
     },
     {
         "courseName": "Buraxılış fənləri",
         "courseImg": "images/course-img/buraxilis.png",
         "courseInfo2": "",
-        "courseInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo ipsum impedit aquaerat delectus perspiciatis adipisci odio beatae nobis? Exercitationem excepturiaccusantium velit sint nesciunt quasi neque saepe Omnis",
+        "courseInfo": "buraxılış imtahanı universitet üçün verəcəyimiz ilk imtahandır, bu imtahanda yüksək nəticə əldə etmək blok imtahanı üçün motivasiya verir, sizdə bizimlə birlikdə buraxılış imtahanına hazırlaşaraq yüksək nəticə əldə edin",
         "courseLink": "courses/buraxilis-fenleri.html"
+    },
+    {
+        "courseName": "Qrup fənləri",
+        "courseImg": "images/course-img/blok.png",
+        "courseInfo": "Buraxılış imtahanından sonrakı ikinci ən böyük və vacib imtahanlardan biri isə blok imtahanıdır, sizdə blokdan yaxşı bal yığmaq istəyirsinizsə qrupunuzu seçərək bizimlə birlikdə hazırlaşın",
+        "courseInfo2": "bu kursda siz öz grupunuza uyğun fənnlərə hazırlaşacaqsınız",
+        "courseLink": "/courses/grup-fenleri.html"
     },
     {
         "courseName": "MİQ ə hazırlıq",
         "courseImg": "images/course-img/miq.png",
         "courseInfo2": "",
-        "courseInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo ipsum impedit aquaerat delectus perspiciatis adipisci odio beatae nobis? Exercitationem excepturiaccusantium velit sint nesciunt quasi neque saepe Omnis",
-        "courseLink": "courses/buraxılış.html"
+        "courseInfo": "müəllimsiniz? işə qəbul imtahanına hazırlaşırsınız ancaq necə hazırlaşacağınızı bilmirsiniz və planınız yoxdur, narahat olmayın, Texno Tədris Mərkəzi ilə siz planlı şəkildə hazırlaşacaq və imtahandan yüksək nəticə əldə edəcəksiniz",
+        "courseLink": "courses/miq.html"
     },
     {
         "courseName": "Ümumi fənnlər",
         "courseImg": "images/course-img/ümumi.png",
         "courseInfo2": "",
-        "courseInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo ipsum impedit aquaerat delectus perspiciatis adipisci odio beatae nobis? Exercitationem excepturiaccusantium velit sint nesciunt quasi neque saepe Omnis",
+        "courseInfo": "buraxılış və blok fənnlərindən ümumi hazırlaşacağınız qruplar yaratdıq, sizdə 1 məntəqədə əlavə heç yerə getmədən vaxt itkisi olmadan blok və buraxılış fənnlərini öyrənəcəksiniz, əgər sizdə blok və buraxılış fənnlərindən yüksək nəticə əldəetmək istəyirsinizsə elə isə bizə müraciət edin",
         "courseLink": "courses/ümumi-fennler.html"
+    },
+    {
+        "courseName": "Təkminləşdirmə",
+        "courseImg": "images/course-img/təkminləşdirmə.png",
+        "courseInfo2": "",
+        "courseInfo": "5-8 ci siniflər üçün azərbaycan dili, riyaziyyat, və xarici dil hazırlığı",
+        "courseLink": "courses/tekminlesdirme.html"
     }
 ]

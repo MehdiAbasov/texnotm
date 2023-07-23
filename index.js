@@ -182,7 +182,7 @@ function addFooterToPage() {
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>Copyright <span id="footerYear"></span> texnotm | <a href="#">created by Mehdi Abasov</a> | All rights reserved</p>
+                <p>Copyright <span id="footerYear"></span> texnotm | <a target="_blank" href="https://www.instagram.com/compdevs">created by Mehdi Abasov</a> | All rights reserved</p>
             </div>
         </div>
     </div>
