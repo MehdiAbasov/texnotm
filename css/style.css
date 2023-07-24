@@ -5,6 +5,13 @@
     outline: none;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3a317c;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -1160,7 +1167,6 @@ a {
 
 ._header .page_links {
     display: flex;
- 
 }
 
 .page_links a {
