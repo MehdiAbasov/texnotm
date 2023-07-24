@@ -408,6 +408,8 @@ a {
     position: absolute;
     bottom: -10px;
     right: 0px;
+    border-radius: 30px;
+    overflow: hidden;
     height: 200px;
     width: 200px;
 }
@@ -422,8 +424,9 @@ a {
 .absolute-img .about-img {
     padding: 15px;
     height: 200px;
+    overflow-y: hidden;
     border-radius: 30px;
-    width: 20px;
+    transform: translatex(-150px);
     overflow: hidden;
     margin-top: -200px;
     display: flex;
@@ -437,7 +440,7 @@ a {
 }
 
 .absolute-img:hover .about-img {
-    width: 200px;
+    transform: translate(0);
 }
 
 .social-links {
