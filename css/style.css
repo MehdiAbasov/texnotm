@@ -794,11 +794,11 @@ a {
     color: #fff;
     display: flex;
     align-items: center;
-    gap: 18px;
 }
 
 .footer ul li i {
     font-size: 15px;
+    padding-right: 15px;
 }
 
 .footer ul li a {
