@@ -357,20 +357,23 @@ a {
 
 .my-container .left-side .btns {
     display: flex;
-    gap: 10px;
 }
 
 .btns a {
     background-color: #072947;
     color: #fff;
     width: 150px;
+    margin-right: 10px;
     height: 45px;
-    gap: 10px;
     font-size: 18px;
     border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.btns a > i{
+    padding-left: 10px;
 }
 
 .btns a:nth-child(2) {
