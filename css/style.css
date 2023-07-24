@@ -284,6 +284,8 @@ a {
 }
 
 .res-nav-links {
+    list-style: none;
+    color: #fff;
     /* text-align: center; */
     gap: 10px;
     padding-left: 10px;
@@ -292,12 +294,18 @@ a {
     width: 100%;
 }
 
+.res-nav-links li{
+    display: flex;
+    align-items: center;
+}
+
 .res-nav-links a {
     font-size: 19px;
     display: flex;
     width: 100%;
     padding: 5px 0;
     color: #fff;
+    margin-left: 10px;
 }
 .my-btn {
     cursor: pointer;
@@ -305,8 +313,12 @@ a {
     align-items: center;
     gap: 10px;
     padding: 5px 0;
+    margin-left: 0px !important;
 }
 
+.my-btn i{
+    font-size: 15px;
+}
 .dropdown-menu {
     width: 100%;
     margin-top: -40px !important;
@@ -1122,10 +1134,13 @@ a {
     border-radius: 100px;
     background-color: #3a317c;
     color: #fff;
-    padding: 10px;
     width: 150px;
     height: 40px;
     margin: 10px 0;
+}
+
+.succes .davami a i {
+    padding-left: 10px;
 }
 
 /* succes */

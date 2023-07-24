@@ -15,13 +15,13 @@ function addNavbarToPage() {
                     </div>
                 </div>
                 <div class="navbar-bottom"> 
-                    <div class="res-nav-links">
-                        <a href="../../index.html">Ana Səhifə</a>
-                        <a href="../../about-us.html">Haqqımızda</a>
-                        <a href="#">fəaliyyətlər</a>
+                    <ul class="res-nav-links">
+                        <li><i class="fa-solid fa-angles-right"></i> <a href="../../index.html">Ana Səhifə</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i> <a href="../../about-us.html">Haqqımızda</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i> <a href="#">fəaliyyətlər</a></li>                        
                         <div class="dropdown">
                             <a href="#" class="my-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                Kursumuz
+                                <i class="fa-solid fa-angles-right"></i> Kursumuz
                             </a>
                             <ul class="dropdown-menu">
                                 <a href="../../courses.html">Kurslarımız</a>
@@ -31,7 +31,7 @@ function addNavbarToPage() {
                         </div>
                         <div class="dropdown">
                             <a href="#" class="my-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                İmtahanlar
+                                <i class="fa-solid fa-angles-right"></i>    İmtahanlar
                             </a>
                             <ul class="dropdown-menu">
                                 <a href="../../school/neticeler.html">Nəticələr</a>
@@ -39,8 +39,8 @@ function addNavbarToPage() {
                                 <a href="../../school/tickets.html">Biletlər</a>
                             </ul>
                         </div>
-                        <a href="../../contact.html">Əlaqə</a>
-                    </div>
+                        <li><i class="fa-solid fa-angles-right"></i> <a href="../../contact.html">Əlaqə</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
