@@ -1160,12 +1160,13 @@ a {
 
 ._header .page_links {
     display: flex;
-    gap: 13px;
+ 
 }
 
 .page_links a {
     font-weight: 600;
     color: #818181;
+    padding-left: 10px;
 }
 
 /* about_us  */
