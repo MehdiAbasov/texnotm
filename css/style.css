@@ -1061,20 +1061,19 @@ a {
     display: flex;
     gap: 20px;
 }
-
 .succes-img img {
     object-fit: cover;
     width: 100%;
 }
-
 .succes-info {
     padding: 10px;
 }
 
 .succes-info h1 {
     font-size: 27px;
+    font-family: "urbanist", sans-serif;
     font-weight: 700;
-    color: #113d63;
+    color:#231f40;
 }
 
 .cost {
@@ -1088,7 +1087,7 @@ a {
     font-weight: 700;
     justify-content: center;
     align-items: center;
-    background-color: #072947;
+    background-color: #3a317c;
     height: 35px;
 }
 
@@ -1098,7 +1097,7 @@ a {
 
 .succes .davami {
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 .succes .container a {
@@ -1106,12 +1105,14 @@ a {
     font-weight: 600;
     display: flex;
     align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: #3a317c;
+    color: #fff;
     padding: 10px;
-    gap: 10px;
-    background-color: #072947;
-    width: 130px;
-    height: 35px;
-    margin: 10px;
+    width: 150px;
+    height: 40px;
+    margin: 10px 0;
 }
 
 /* succes */
