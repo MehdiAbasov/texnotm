@@ -77,7 +77,7 @@ function addNavbarToPage() {
         <a class="whatsapp-btn" target="_blank" href="https://wa.me/+9940506659714"><i class="fa-brands fa-whatsapp"></i></a>
         <a class="register-btn" href="../../register.html"><i class="fa-solid fa-right-to-bracket"></i><span>qeydiyyat</span></a>
         <div class="menu-icon" id="menu-icon">
-        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-bars" id="menu-bars"></i>
     </div>
         </div>
     </div>
@@ -89,13 +89,20 @@ function addNavbarToPage() {
     const menuIcon = document.querySelector("#menu-icon");
     const xmarkIcon = document.querySelector("#xmark-icon");
     const responsiveNavbar = document.querySelector("#res-navbar");
-
+    const menuBars = document.querySelector("#menu-bars")
     menuIcon.addEventListener("click", function () {
         responsiveNavbar.classList.add("transformX");
+        menuBars.classList.toggle("fa-xmark")
+        if (!menuBars.classList.contains("fa-xmark")) {
+            responsiveNavbar.classList.remove("transformX")
+        }
     });
 
     xmarkIcon.addEventListener("click", function () {
         responsiveNavbar.classList.remove('transformX')
+        if (menuBars.classList.contains("fa-xmark")) {
+            menuBars.classList.replace("fa-xmark", "fa-bars")
+        }
     });
 }
 

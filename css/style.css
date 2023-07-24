@@ -192,7 +192,6 @@ a {
 
 .navbar-btns {
     display: flex;
-    gap: 10px;
 }
 
 .navbar-btns .whatsapp-btn {
@@ -204,6 +203,7 @@ a {
     align-items: center;
     justify-content: center;
     color: rgb(21, 214, 21);
+    margin-right: 10px;
     background-color: #efeded69;
 }
 
@@ -492,14 +492,14 @@ a {
     margin: 10px;
     font-size: 19px;
     font-weight: 600;
-    background-color:#49408d;
+    background-color: #49408d;
     color: #fff;
     padding: 10px;
     border-radius: 100px;
-    transition: .5s ease;
+    transition: 0.5s ease;
 }
 
-.about-us-btns a:hover{
+.about-us-btns a:hover {
     background-color: #4435b3;
 }
 
@@ -884,6 +884,8 @@ a {
     }
 
     .register-btn {
+        margin-right: 10px;
+
         width: 60px !important;
     }
 
@@ -978,7 +980,6 @@ a {
     .absolute-img {
         width: 120px !important;
         height: 120px !important;
-        
     }
 
     .about-img {
