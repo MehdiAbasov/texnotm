@@ -47,22 +47,24 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-section">
-                        <form>
+                        <form id="numaraForm">
                             <div class="input-group">
                                 <label for="name">Adiniz :</label>
                                 <input required type="text" name="Name" id="name">
                             </div>
                             <div class="input-group">
-                                <label for="phone">Telefon :</label>
-                                <input required type="tel" id="phone">
+                                <label for="telefonNumarasi">Telefon :</label>
+                                <input required type="number" oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+                                    id="telefonNumarasi">
                             </div>
                             <div class="input-group">
                                 <label for="age">Yaş :</label>
-                                <input type="number" name="age" id="age">
+                                <input required type="number" name="age" id="age">
                             </div>
                             <div class="input-group">
-                                <label for="fen">Seç:</label>
+                                <label for="services-select">Seç:</label>
                                 <select name="education" required id="services-select">
+                                    <option value="">seç</option>
                                     <option value="buraxılış fenleri">Buraxlış fənləri</option>
                                     <option value="komputer-kurslari">Komputer kursları</option>
                                     <option value="ümumi-fenler">Ümumi fənləri (qrup və buraxılış)</option>
@@ -73,8 +75,8 @@
                             </div>
                             <div class="input-group my-option-group" id="option-group">
                                 <label for="qrup">Qrup seçin:</label>
-                                <select id="group-select" required name="qrup-select">
-                                    <option disabled>Qrup seç</option>
+                                <select id="group-select"  name="option-select">
+                                    <option value="">Qrup seç</option>
                                     <option value="1-ci qrup">1-ci qrup</option>
                                     <option value="2-ci qrup">2-ci qrup</option>
                                     <option value="3-ci qrup">3-ci qrup</option>
@@ -85,6 +87,7 @@
                             <div class="input-group my-option-group" id="comp-option">
                                 <label for="qrup">istiqamet seçin:</label>
                                 <select id="group-select" name="qrup-select">
+                                    <option value="">seçin</option>
                                     <option value="front-end">front-end</option>
                                     <option value="office365 && windowsƏS">office365 && windowsƏS</option>
                                     <option value="qrafik dizayn">qrafik dizayn</option>
@@ -106,6 +109,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="index.js"></script>
+    <script src="register.js"></script>
 </body>
 
 </html>
