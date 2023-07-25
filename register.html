@@ -33,15 +33,17 @@
         </div>
     </div>
 
-    <div class="register_page-hero">
+    <div class="register_page">
         <div class="container">
-            <div class="register_head">
+            <div class="register_head _head">
                 <span>Qeydiyyat</span>
                 <h3>Dərslərimizə qeydiyyatdan keçməyə tələsin!</h3>
             </div>
             <div class="row">
                 <div class="col-md-6">
-
+                    <div class="register_page-img">
+                        <img src="./texnoLogo.png" alt="">
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-section">
@@ -60,7 +62,7 @@
                             </div>
                             <div class="input-group">
                                 <label for="fen">Seç:</label>
-                                <select name="education" id="services-select">
+                                <select name="education" required id="services-select">
                                     <option value="buraxılış fenleri">Buraxlış fənləri</option>
                                     <option value="komputer-kurslari">Komputer kursları</option>
                                     <option value="ümumi-fenler">Ümumi fənləri (qrup və buraxılış)</option>
@@ -71,7 +73,8 @@
                             </div>
                             <div class="input-group my-option-group" id="option-group">
                                 <label for="qrup">Qrup seçin:</label>
-                                <select id="group-select" name="qrup-select">
+                                <select id="group-select" required name="qrup-select">
+                                    <option disabled>Qrup seç</option>
                                     <option value="1-ci qrup">1-ci qrup</option>
                                     <option value="2-ci qrup">2-ci qrup</option>
                                     <option value="3-ci qrup">3-ci qrup</option>
