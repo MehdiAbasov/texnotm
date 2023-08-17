@@ -241,7 +241,8 @@ $(document).ready(function () {
         if ($(this).val() === 'qrup-fenleri' || $(this).val() === 'ümumi-fenler') {
             $('#option-group').show();
             $('#comp-option').hide();
-        } else if ($(this).val() === 'komputer-kurslari') {
+        }
+        else if ($(this).val() === 'komputer-kurslari') {
             $('#comp-option').show();
             $('#option-group').hide();
         }

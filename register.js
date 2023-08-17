@@ -8,7 +8,6 @@ function isValidPhoneNumber(input) {
     var allowedPrefixes = ["010", "050", "051", "070", "099"];
     var prefix = input.substring(0, 3);
 
-    // İlk üç basamak, desteklenen ön eklerden biriyle eşleşmelidir.
     if (!allowedPrefixes.includes(prefix)) {
         return false;
     }
@@ -17,18 +16,14 @@ function isValidPhoneNumber(input) {
 }
 
 function kullaniciNumaraGirisi(event) {
-    var girdi = document.getElementById("telefonNumarasi").value;
     var secim = document.getElementById("services-select").selectedIndex;
-
     // Girilen metni ve seçimi kontrol et
-    if (girdi === "") {
-        alert("Boş bir giriş yapıldı. Lütfen telefon numarasını giriniz.");
+    if (secim === 0) {
+        alert("xaiş edirik bir seçim edin.");
         event.preventDefault(); // Formu göndermeyi engeller
-    } else if (secim === 0) {
-        alert("Lütfen bir seçim yapın.");
-        event.preventDefault(); // Formu göndermeyi engeller
-    } else {
-        alert("Geçersiz giriş. Telefon numaranız 10 basamaklı olmalı ve desteklenen bir ön ekle başlamalıdır.");
+    }
+    else {
+        alert("telefon nömrəniz düzgün deyil, xaiş edirik düzgün nömrə qeyd edəsiniz");
         event.preventDefault(); // Formu göndermeyi engeller
     }
 }
