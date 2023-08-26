@@ -8,7 +8,7 @@ function addNavbarToPage() {
             <div class="res-container">
                 <div class="navbar-top">
                     <div class="res-logo">
-                        <img src="../../texnoLogo.png" alt="logo">
+                        <img src="../texnoLogo.png" alt="logo">
                     </div>
                     <div class="xmark-icon" id="xmark-icon">
                         <i class="fa-solid fa-xmark"></i>
@@ -16,17 +16,17 @@ function addNavbarToPage() {
                 </div>
                 <div class="navbar-bottom"> 
                     <ul class="res-nav-links">
-                        <li><i class="fa-solid fa-angles-right"></i> <a href="../../index.html">Ana Səhifə</a></li>
-                        <li><i class="fa-solid fa-angles-right"></i> <a href="../../about-us.html">Haqqımızda</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i> <a href="../index.html">Ana Səhifə</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i> <a href="../about-us.html">Haqqımızda</a></li>
                         <li><i class="fa-solid fa-angles-right"></i> <a href="#">fəaliyyətlər</a></li>                        
                         <div class="dropdown">
                             <a href="#" class="my-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa-solid fa-angles-right"></i> Kursumuz
                             </a>
                             <ul class="dropdown-menu">
-                                <a href="../../courses.html">Kurslarımız</a>
-                                <a href="../../school/teachers.html">Müəllimlər</a>
-                                <a href="../../school/succes.html">Uğurlarımız</a>
+                                <a href="../courses.html">Kurslarımız</a>
+                                <a href="../school/teachers.html">Müəllimlər</a>
+                                <a href="../school/succes.html">Uğurlarımız</a>
                             </ul>
                         </div>
                         <div class="dropdown">
@@ -34,48 +34,48 @@ function addNavbarToPage() {
                                 <i class="fa-solid fa-angles-right"></i>    İmtahanlar
                             </a>
                             <ul class="dropdown-menu">
-                                <a href="../../school/neticeler.html">Nəticələr</a>
-                                <a href="../../school/exams.html">Sınaqlar</a>
-                                <a href="../../school/tickets.html">Biletlər</a>
+                                <a href="../school/neticeler.html">Nəticələr</a>
+                                <a href="../school/exams.html">Sınaqlar</a>
+                                <a href="../school/tickets.html">Biletlər</a>
                             </ul>
                         </div>
-                        <li><i class="fa-solid fa-angles-right"></i> <a href="../../contact.html">Əlaqə</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i> <a href="../contact.html">Əlaqə</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="logo">
-            <a href="../../index.html">
-                <img src="../../texnoLogo.png" alt="logo">
+            <a href="../index.html">
+                <img src="../texnoLogo.png" alt="logo">
             </a>
         </div>
         <div class="nav-links">
-            <a href="../../index.html">Ana Səhifə</a>
-            <a href="../../about-us.html">Haqqımızda</a>
-            <a href="../../contact.html">Əlaqə</a>
+            <a href="../index.html">Ana Səhifə</a>
+            <a href="../about-us.html">Haqqımızda</a>
+            <a href="../contact.html">Əlaqə</a>
             <ul class="drop-menu">
             <li>
                 <a href="#">Kursumuz<i class="fa-solid fa-chevron-down"></i></a>
                 <ul class="sub-menu">
-                    <li><a href="../../courses.html">Kurslar</a></li>
-                    <li><a href="../../school/succes.html">Uğurlarımız</a></li>
-                    <li><a href="../../school/teachers.html">Müəllimlər</a></li>
+                    <li><a href="../courses.html">Kurslar</a></li>
+                    <li><a href="../school/succes.html">Uğurlarımız</a></li>
+                    <li><a href="../school/teachers.html">Müəllimlər</a></li>
                     <li><a href="#">Layihələr</a></li>
-                    <li><a href="../../school/gallery.html">Qalereya</a></li>
+                    <li><a href="../school/gallery.html">Qalereya</a></li>
                 </ul>
             </li>
             <li><a href="#">İmtahanlar <i class="fa-solid fa-chevron-down"></i></a>
                 <ul class="sub-menu">
-                    <li><a href="../../school/neticeler.html">Nəticələr</a></li>
-                    <li><a href="../../school/exams.html">Sınaqlar</a></li>
-                    <li><a href="../../school/tickets.html">Biletlər</a></li>
+                    <li><a href="../school/neticeler.html">Nəticələr</a></li>
+                    <li><a href="../school/exams.html">Sınaqlar</a></li>
+                    <li><a href="../school/tickets.html">Biletlər</a></li>
                 </ul>
             </li>
         </ul>
         </div>
           <div class="navbar-btns">
         <a class="whatsapp-btn" target="_blank" href="https://wa.me/+9940506659714"><i class="fa-brands fa-whatsapp"></i></a>
-        <a class="register-btn" href="../../register.html"><i class="fa-solid fa-right-to-bracket"></i><span>qeydiyyat</span></a>
+        <a class="register-btn" href="../register.html"><i class="fa-solid fa-right-to-bracket"></i><span>qeydiyyat</span></a>
         <div class="menu-icon" id="menu-icon">
         <i class="fa-solid fa-bars" id="menu-bars"></i>
     </div>
@@ -130,7 +130,7 @@ function addFooterToPage() {
                 <div class="col-xl-3 col-md-6">
                     <div class="footer-logo">
                         <a href="#">
-                            <img src="../../texnoLogo.png" alt="">
+                            <img src="../texnoLogo.png" alt="">
                         </a>
                     </div>
                     <p>bu sayt Mehdi Abasov tərəfindən Texno Tədris Mərkəzi üçün hazırlanmışdır.</p>
@@ -143,13 +143,13 @@ function addFooterToPage() {
                 <div class="col-xl-3 col-md-6">
                     <h3>Araştırın</h3>
                     <ul>
-                        <li><i class="fa-solid fa-angles-right"></i><a href="../../index.html">Ana Səhifə</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i><a href="../index.html">Ana Səhifə</a></li>
                     </ul>
                     <ul>
-                        <li><i class="fa-solid fa-angles-right"></i><a href="../../about-us.html">Haqqımızda</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i><a href="../about-us.html">Haqqımızda</a></li>
                     </ul>
                     <ul>
-                        <li><i class="fa-solid fa-angles-right"></i><a href="../../courses.html">Kurslarımız</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i><a href="../courses.html">Kurslarımız</a></li>
                     </ul>
                     <ul>
                         <li><i class="fa-solid fa-angles-right"></i><a href="#">Qeydiyyat</a></li>
@@ -161,19 +161,19 @@ function addFooterToPage() {
                 <div class="col-xl-3 col-md-6">
                     <h3>Faydalı Linklər</h3>
                     <ul>
-                        <li><i class="fa-solid fa-angles-right"></i><a href="../../contact.html">Bizimlə əlaqə</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i><a href="../contact.html">Bizimlə əlaqə</a></li>
                     </ul>
                     <ul>
-                        <li><i class="fa-solid fa-angles-right"></i><a href="../../school/gallery.html">Qaleriya</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i><a href="../school/gallery.html">Qaleriya</a></li>
                     </ul>
                     <ul>
-                        <li><i class="fa-solid fa-angles-right"></i><a href="../../school/neticeler.html">Nəticələr</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i><a href="../school/neticeler.html">Nəticələr</a></li>
                     </ul>
                     <ul>
                         <li><i class="fa-solid fa-angles-right"></i><a href="#">Sınaqlar</a></li>
                     </ul>
                     <ul>
-                        <li><i class="fa-solid fa-angles-right"></i><a href="../../school/teachers.html">Müəllimlər</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i><a href="../school/teachers.html">Müəllimlər</a></li>
                     </ul>
                     <ul>
                         <li><i class="fa-solid fa-angles-right"></i><a href="#">Layihələr</a></li>

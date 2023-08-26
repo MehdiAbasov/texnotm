@@ -1,7 +1,7 @@
 [
     {
         "courseName": "Qrafik Dizayn ",
-        "courseImg": "../../images/course-img/design.jpg",
+        "courseImg": "../images/course-img/design.jpg",
         "courseAbout": "Qrafik Dizayn sahəsi günümzün ən məhşur sahələrindən olub, tələbatlı və yüksək maaşlı sahələrdən biridir. Qrafik Dizayn sahəsində siz öz biznesinizi reklam edəcək flayer, posterlər hazırlaya, həmçinin hər hansısa məhsulun üzlük fotosunu yarada, şirkətlər üçün reklamlar hazırlaya bilərsiniz.Qrafik dizayner olmaq üçün nələri bilmək lazımdır? photoshop, coreldrav kimi programları bilərək sizdə bu sahədə öz sözünüzü deyə bilərsiniz",
         "courseDetail1": "Photoshop",
         "courseDetail2": "Coreldrav",
@@ -11,7 +11,7 @@
     },
     {
         "courseName": "Front-End ",
-        "courseImg": "../../images/course-img/front-end.jpg",
+        "courseImg": "../images/course-img/front-end.jpg",
         "courseAbout": "Front-end sahəsi günümzün ən məhşur sahələrindən olub, tələbatlı və yüksək maaşlı sahələrdən biridir. Front-end sahəsini bilərək siz sifirdan öz onlayn biznesinizi qura, vəya biznesinizi onlayna daşıya bilər, yada freelancer olaraq bir şirkətdə işləyə vəya fərdi xidmət göstərə bilərsiniz. Front-end developer kimdir? front-end developer websaytın interfeysini yəni görünən hissəsini yaradir. Front-end developer olmaq üçün nələr bilmək lazımdır. aşağıda qeyd etdiyimiz dilləri( programlama dillərini ) bilərək sizdə qələcəyin front-end programçısı ola bilərsiniz",
         "courseDetail1": "Html",
         "courseDetail2": "Css",
@@ -24,7 +24,7 @@
     },
     {
         "courseName": "WindowsƏS və Office365",
-        "courseImg": "../../images/course-img/office.jpg",
+        "courseImg": "../images/course-img/office.jpg",
         "courseAbout": "office programları microsoft məhsulu olub günümüzdə ofis, kurs, bank sektorlarında mağazalarda və bir çox sektorda istifadə olunur, windows əməliyyat sistemi isə bu gün demək olar ən çox istifadə olunan əməliyyat sistemidir, bu əməliyyat sistemi microsoft tərəfindən yaradılıb, və hər keçən gün yenilənməkdədir. windows əməliyyat sistemli bir komputer aldıqda ilk öncə gərək bu əməliyyat sistemindən istifadəni bilək. Kursumuzda 3 aylıq tədris müddətində siz həm ofis programlarını həmdə windowsƏS sistemini geniş bir şəkildə öyrənmiş olacaqsınız",
         "courseDetail1": "Windows10 Əs",
         "courseDetail2": "Word",
@@ -35,7 +35,7 @@
     },
     {
         "courseName": "Buraxılış fənnləri",
-        "courseImg": "../../images/buraxilis.png",
+        "courseImg": "../images/buraxilis.png",
         "courseAbout": "buraxılış imtahanı universitet üçün verəcəyimiz ilk imtahandır, bu imtahanda yüksək nəticə əldə etmək blok imtahanı üçün motivasiya verir, sizdə bizimlə birlikdə buraxılış imtahanına hazırlaşaraq yüksək nəticə əldə edin",
         "courseDetail1": "Azərbaycan dili",
         "courseDetail2": "Riyaziyyat",
@@ -45,7 +45,7 @@
     },
     {
         "courseName": "Blok fənnləri",
-        "courseImg": "../../images/blok.png",
+        "courseImg": "../images/blok.png",
         "courseAbout": "Buraxılış imtahanından sonrakı ikinci ən böyük və vacib imtahanlardan biri isə blok imtahanıdır, sizdə blokdan yaxşı bal yığmaq istəyirsinizsə qrupunuzu seçərək bizimlə birlikdə hazırlaşın",
         "courseDetail1": "Riyaziyyat",
         "courseDetail2": "Kimya",
@@ -64,7 +64,7 @@
     },
     {
         "courseName": "Ümumi fənnləri",
-        "courseImg": "../../images/course-img/ümumi.png",
+        "courseImg": "../images/course-img/ümumi.png",
         "courseAbout": "blok və buraxılış fənnlərindən ümumi hazırlıq",
         "courseDetail1": "Azərbaycan dili",
         "courseDetail2": "Riyaziyyat",
@@ -86,7 +86,7 @@
     },
     {
         "courseName": "MIQ ə hazırlıq",
-        "courseImg": "../../images/course-img/miq.png",
+        "courseImg": "../images/course-img/miq.png",
         "courseAbout":"Müəllimlərin işə qəbul imtahanına hazırlıq",
         "courseDetail1": "Azərbaycan dili",
         "courseDetail2": "Riyaziyyat",
@@ -96,7 +96,7 @@
     },  
     {
         "courseName": "Təkminləşdirmə",
-        "courseImg": "../../images/course-img/təkminləşdirmə.png",
+        "courseImg": "../images/course-img/təkminləşdirmə.png",
         "courseAbout":"5-8 ci siniflər üçün azərbaycan dili, riyaziyyat, ingilis dili hazırlığı",
         "courseDetail1": "Azərbaycan dili",
         "courseDetail2": "Riyaziyyat",

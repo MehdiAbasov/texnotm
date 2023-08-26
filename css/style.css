@@ -1543,7 +1543,7 @@ a {
 .courses_course-item:nth-child(even) .row {
     flex-direction: row-reverse;
 }
-.course-register-btn {
+.course-register-btn a{
     display: flex;
     width: 200px;
     justify-content: center;

@@ -9,7 +9,7 @@ const tekminlesdirme = document.getElementById("tekminlesdirme")
 
 window.onload = getCourseInfo
 async function getCourseInfo() {
-    const url = "../../course-details.json"
+    const url = "../course-details.json"
     const stringData = await fetch(url)
     const JSONData = await stringData.json()
     try {
@@ -54,12 +54,12 @@ async function getCourseInfo() {
                     <div class="categories">
                         <h3>Kateqoriyalar</h3>
                         <div class="category-links">
-                    <a href="../../courses/course-details/office365.html">Word</a>
-                    <a href="../../courses/course-details/dizayn.html">Qrafik dizayn</a>
-                    <a href="../../courses/course-details/front-end.html">Javascript</a>
-                    <a href="../../courses/course-details/front-end.html">Front-end</a>
-                    <a href="../../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
-                    <a href="../../courses/grup-fenleri.html">2-ci qrup fenleri</a>
+                    <a href="../course-details/office365.html">Word</a>
+                    <a href="../course-details/dizayn.html">Qrafik dizayn</a>
+                    <a href="../course-details/front-end.html">Javascript</a>
+                    <a href="../course-details/front-end.html">Front-end</a>
+                    <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
+                    <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
                 </div>
                     </div>
                     <div class="ads instagram">
@@ -121,12 +121,12 @@ async function getCourseInfo() {
             <div class="categories">
                 <h3>Kateqoriyalar</h3>
                 <div class="category-links">
-                    <a href="../../courses/course-details/office365.html">Word</a>
-                    <a href="../../courses/course-details/dizayn.html">Qrafik dizayn</a>
-                    <a href="../../courses/course-details/front-end.html">Javascript</a>
-                    <a href="../../courses/course-details/front-end.html">Front-end</a>
-                    <a href="../../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
-                    <a href="../../courses/grup-fenleri.html">2-ci qrup fenleri</a>
+                    <a href="../course-details/office365.html">Word</a>
+                    <a href="../course-details/dizayn.html">Qrafik dizayn</a>
+                    <a href="../course-details/front-end.html">Javascript</a>
+                    <a href="../course-details/front-end.html">Front-end</a>
+                    <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
+                    <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
                 </div>
             </div>
             <div class="ads instagram">
@@ -184,12 +184,12 @@ async function getCourseInfo() {
             <div class="categories">
                 <h3>Kateqoriyalar</h3>
                 <div class="category-links">
-                    <a href="../../courses/course-details/office365.html">Word</a>
-                    <a href="../../courses/course-details/dizayn.html">Qrafik dizayn</a>
-                    <a href="../../courses/course-details/front-end.html">Javascript</a>
-                    <a href="../../courses/course-details/front-end.html">Front-end</a>
-                    <a href="../../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
-                    <a href="../../courses/grup-fenleri.html">2-ci qrup fenleri</a>
+                    <a href="../course-details/office365.html">Word</a>
+                    <a href="../course-details/dizayn.html">Qrafik dizayn</a>
+                    <a href="../course-details/front-end.html">Javascript</a>
+                    <a href="../course-details/front-end.html">Front-end</a>
+                    <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
+                    <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
                 </div>
             </div>
             <div class="ads instagram">
@@ -244,12 +244,12 @@ async function getCourseInfo() {
                     <div class="categories">
                         <h3>Kateqoriyalar</h3>
                         <div class="category-links">
-                            <a href="../../courses/course-details/office365.html">Word</a>
-                            <a href="../../courses/course-details/dizayn.html">Qrafik dizayn</a>
-                            <a href="../../courses/course-details/front-end.html">Javascript</a>
-                            <a href="../../courses/course-details/front-end.html">Front-end</a>
-                            <a href="../../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
-                            <a href="../../courses/grup-fenleri.html">2-ci qrup fenleri</a>
+                            <a href="../course-details/office365.html">Word</a>
+                            <a href="../course-details/dizayn.html">Qrafik dizayn</a>
+                            <a href="../course-details/front-end.html">Javascript</a>
+                            <a href="../course-details/front-end.html">Front-end</a>
+                            <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
+                            <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
                         </div>
                     </div>
                     <div class="ads facebook">
@@ -258,7 +258,7 @@ async function getCourseInfo() {
                         </div>
                         <h3>bizi Facebookdan izləyin</h3>
                         <a target="_blank" href="#">Facebook</a>
-                    </div>
+                    </d
                 </div>
     `
     }
@@ -331,12 +331,12 @@ async function getCourseInfo() {
                     <div class="categories">
                         <h3>Kateqoriyalar</h3>
                         <div class="category-links">
-                            <a href="../../courses/course-details/office365.html">Word</a>
-                            <a href="../../courses/course-details/dizayn.html">Qrafik dizayn</a>
-                            <a href="../../courses/course-details/front-end.html">Javascript</a>
-                            <a href="../../courses/course-details/front-end.html">Front-end</a>
-                            <a href="../../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
-                            <a href="../../courses/grup-fenleri.html">2-ci qrup fenleri</a>
+                            <a href="../course-details/office365.html">Word</a>
+                            <a href="../course-details/dizayn.html">Qrafik dizayn</a>
+                            <a href="../course-details/front-end.html">Javascript</a>
+                            <a href="../course-details/front-end.html">Front-end</a>
+                            <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
+                            <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
                         </div>
                     </div>
                     <div class="ads facebook">
@@ -350,6 +350,7 @@ async function getCourseInfo() {
     `
     }
     catch (e) { }
+
     try {
         allCourses.innerHTML =
             `
@@ -427,12 +428,12 @@ async function getCourseInfo() {
                     <div class="categories">
                         <h3>Kateqoriyalar</h3>
                         <div class="category-links">
-                            <a href="../../courses/course-details/office365.html">Word</a>
-                            <a href="../../courses/course-details/dizayn.html">Qrafik dizayn</a>
-                            <a href="../../courses/course-details/front-end.html">Javascript</a>
-                            <a href="../../courses/course-details/front-end.html">Front-end</a>
-                            <a href="../../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
-                            <a href="../../courses/grup-fenleri.html">2-ci qrup fenleri</a>
+                            <a href="../course-details/office365.html">Word</a>
+                            <a href="../course-details/dizayn.html">Qrafik dizayn</a>
+                            <a href="../course-details/front-end.html">Javascript</a>
+                            <a href="../course-details/front-end.html">Front-end</a>
+                            <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
+                            <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
                         </div>
                     </div>
                     <div class="ads facebook">
@@ -492,12 +493,12 @@ async function getCourseInfo() {
                     <div class="categories">
                         <h3>Kateqoriyalar</h3>
                         <div class="category-links">
-                            <a href="../../courses/course-details/office365.html">Word</a>
-                            <a href="../../courses/course-details/dizayn.html">Qrafik dizayn</a>
-                            <a href="../../courses/course-details/front-end.html">Javascript</a>
-                            <a href="../../courses/course-details/front-end.html">Front-end</a>
-                            <a href="../../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
-                            <a href="../../courses/grup-fenleri.html">2-ci qrup fenleri</a>
+                            <a href="../course-details/office365.html">Word</a>
+                            <a href="../course-details/dizayn.html">Qrafik dizayn</a>
+                            <a href="../course-details/front-end.html">Javascript</a>
+                            <a href="../course-details/front-end.html">Front-end</a>
+                            <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
+                            <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
                         </div>
                     </div>
                     <div class="ads facebook">
@@ -511,6 +512,7 @@ async function getCourseInfo() {
     `
     }
     catch (e) { }
+
     try {
         tekminlesdirme.innerHTML =
             `
@@ -555,12 +557,12 @@ async function getCourseInfo() {
                     <div class="categories">
                         <h3>Kateqoriyalar</h3>
                         <div class="category-links">
-                            <a href="../../courses/course-details/office365.html">Word</a>
-                            <a href="../../courses/course-details/dizayn.html">Qrafik dizayn</a>
-                            <a href="../../courses/course-details/front-end.html">Javascript</a>
-                            <a href="../../courses/course-details/front-end.html">Front-end</a>
-                            <a href="../../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
-                            <a href="../../courses/grup-fenleri.html">2-ci qrup fenleri</a>
+                            <a href="../course-details/office365.html">Word</a>
+                            <a href="../course-details/dizayn.html">Qrafik dizayn</a>
+                            <a href="../course-details/front-end.html">Javascript</a>
+                            <a href="../course-details/front-end.html">Front-end</a>
+                            <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
+                            <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
                         </div>
                     </div>
                     <div class="ads facebook">
