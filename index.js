@@ -35,9 +35,9 @@ function addNavbarToPage() {
                                 <i class="fa-solid fa-angles-right"></i>    İmtahanlar
                             </a>
                             <ul class="dropdown-menu">
-                                <a href="../school/neticeler.html">Nəticələr</a>
-                                <a href="../school/exams.html">Sınaqlar</a>
-                                <a href="../school/tickets.html">Biletlər</a>
+                                <a href="../school/neticeler.html"><i class="fa-solid fa-angles-right"></i> Nəticələr</a>
+                                <a href="../school/exams.html"><i class="fa-solid fa-angles-right"></i> Sınaqlar</a>
+                                <a href="../school/tickets.html"><i class="fa-solid fa-angles-right"></i> Biletlər</a>
                             </ul>
                         </div>
                         <li><i class="fa-solid fa-angles-right"></i> <a href="../contact.html">Əlaqə</a></li>
