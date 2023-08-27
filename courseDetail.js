@@ -125,8 +125,8 @@ async function getCourseInfo() {
                     <a href="../course-details/dizayn.html">Qrafik dizayn</a>
                     <a href="../course-details/front-end.html">Javascript</a>
                     <a href="../course-details/front-end.html">Front-end</a>
-                    <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
-                    <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
+                    <a href="../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
+                    <a href="../courses/grup-fenleri.html">2-ci qrup fenleri</a>
                 </div>
             </div>
             <div class="ads instagram">
@@ -188,8 +188,8 @@ async function getCourseInfo() {
                     <a href="../course-details/dizayn.html">Qrafik dizayn</a>
                     <a href="../course-details/front-end.html">Javascript</a>
                     <a href="../course-details/front-end.html">Front-end</a>
-                    <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
-                    <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
+                    <a href="../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
+                    <a href="../courses/grup-fenleri.html">2-ci qrup fenleri</a>
                 </div>
             </div>
             <div class="ads instagram">
@@ -248,8 +248,8 @@ async function getCourseInfo() {
                             <a href="../course-details/dizayn.html">Qrafik dizayn</a>
                             <a href="../course-details/front-end.html">Javascript</a>
                             <a href="../course-details/front-end.html">Front-end</a>
-                            <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
-                            <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
+                            <a href="../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
+                            <a href="../courses/grup-fenleri.html">2-ci qrup fenleri</a>
                         </div>
                     </div>
                     <div class="ads facebook">
@@ -335,8 +335,8 @@ async function getCourseInfo() {
                             <a href="../course-details/dizayn.html">Qrafik dizayn</a>
                             <a href="../course-details/front-end.html">Javascript</a>
                             <a href="../course-details/front-end.html">Front-end</a>
-                            <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
-                            <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
+                            <a href="../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
+                            <a href="../courses/grup-fenleri.html">2-ci qrup fenleri</a>
                         </div>
                     </div>
                     <div class="ads facebook">
@@ -432,8 +432,8 @@ async function getCourseInfo() {
                             <a href="../course-details/dizayn.html">Qrafik dizayn</a>
                             <a href="../course-details/front-end.html">Javascript</a>
                             <a href="../course-details/front-end.html">Front-end</a>
-                            <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
-                            <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
+                            <a href="../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
+                            <a href="../courses/grup-fenleri.html">2-ci qrup fenleri</a>
                         </div>
                     </div>
                     <div class="ads facebook">
@@ -497,8 +497,8 @@ async function getCourseInfo() {
                             <a href="../course-details/dizayn.html">Qrafik dizayn</a>
                             <a href="../course-details/front-end.html">Javascript</a>
                             <a href="../course-details/front-end.html">Front-end</a>
-                            <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
-                            <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
+                            <a href="../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
+                            <a href="../courses/grup-fenleri.html">2-ci qrup fenleri</a>
                         </div>
                     </div>
                     <div class="ads facebook">
@@ -561,8 +561,8 @@ async function getCourseInfo() {
                             <a href="../course-details/dizayn.html">Qrafik dizayn</a>
                             <a href="../course-details/front-end.html">Javascript</a>
                             <a href="../course-details/front-end.html">Front-end</a>
-                            <a href="../buraxilis-fenleri.html">Buraxılış fənləri</a>
-                            <a href="../grup-fenleri.html">2-ci qrup fenleri</a>
+                            <a href="../courses/buraxilis-fenleri.html">Buraxılış fənləri</a>
+                            <a href="../courses/grup-fenleri.html">2-ci qrup fenleri</a>
                         </div>
                     </div>
                     <div class="ads facebook">
