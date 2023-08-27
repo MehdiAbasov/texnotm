@@ -317,7 +317,7 @@ a {
 }
 
 .my-btn i {
-    font-size: 14   px;
+    font-size: 15px;
 }
 .dropdown-menu {
     width: 100%;
@@ -337,6 +337,7 @@ a {
 }
 .dropdown-menu a > i {
     margin-right: 10px;
+    font-size: 15px;
 }
 /* hero section */
 
