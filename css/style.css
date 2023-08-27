@@ -317,7 +317,7 @@ a {
 }
 
 .my-btn i {
-    font-size: 15px;
+    font-size: 14   px;
 }
 .dropdown-menu {
     width: 100%;
@@ -325,13 +325,18 @@ a {
     margin-bottom: 40px !important;
     height: auto;
     position: relative !important;
-    padding-left: 15px;
+    padding-left: 20px;
     background-color: transparent;
     border: none;
 }
 .dropdown-menu a {
+    display: flex;
+    align-items: center;
     color: #fff;
     padding: 10px 0;
+}
+.dropdown-menu a > i {
+    margin-right: 10px;
 }
 /* hero section */
 
@@ -1543,7 +1548,7 @@ a {
 .courses_course-item:nth-child(even) .row {
     flex-direction: row-reverse;
 }
-.course-register-btn a{
+.course-register-btn a {
     display: flex;
     width: 200px;
     justify-content: center;

@@ -24,9 +24,10 @@ function addNavbarToPage() {
                                 <i class="fa-solid fa-angles-right"></i> Kursumuz
                             </a>
                             <ul class="dropdown-menu">
-                                <a href="../courses.html">Kurslarımız</a>
-                                <a href="../school/teachers.html">Müəllimlər</a>
-                                <a href="../school/succes.html">Uğurlarımız</a>
+                                <a href="../courses.html"><i class="fa-solid fa-angles-right"></i> Kurslarımız</a>
+                                <a href="../school/teachers.html"><i class="fa-solid fa-angles-right"></i> Müəllimlər</a>
+                                <a href="../school/succes.html"><i class="fa-solid fa-angles-right"></i> Uğurlarımız</a>
+                                <a href="../school/gallery.html"><i class="fa-solid fa-angles-right"></i> Qalereya</a>
                             </ul>
                         </div>
                         <div class="dropdown">
