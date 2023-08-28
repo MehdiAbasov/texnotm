@@ -13,11 +13,11 @@ myForm.addEventListener("submit", function (e) {
     if (emailField.value.trim() === '') {
         alert("Please fill out all fields.");
     } else {
-        btn.value = "sending...";
+        btn.value = "göndərilir...";
         btn.disabled = true; // butonu pasif hale getir
         emailjs.sendForm(serviceId, templateId, this).then(
             () => {
-                btn.value = "send";
+                btn.value = "göndərildi";
                 btn.disabled = false; // butonu tekrar aktif hale getir
                 alert("sent");
             },
