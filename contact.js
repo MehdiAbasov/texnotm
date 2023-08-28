@@ -1,5 +1,5 @@
-const serviceId = "service_yabhvtz"
-const templateId = "template_yts5ajy"
+const serviceId = "service_plhdte1"
+const templateId = "template_iw3y4nq"
 
 const myForm = document.getElementById('contactForm')
 const btn = document.getElementById('submit')
