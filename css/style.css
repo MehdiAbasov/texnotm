@@ -4,6 +4,9 @@
     outline: none;
 }
 
+::selection{
+    background-color: #9a94c981;
+}
 ::-webkit-scrollbar {
     width: 5px;
 }
